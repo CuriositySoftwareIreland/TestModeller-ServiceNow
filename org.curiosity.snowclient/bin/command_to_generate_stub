@@ -1,0 +1,1 @@
+D:\eclipse-jee-2019-12-R-win32-x86_64\axis2-1.7.9\bin>wsdl2java.bat -uri file:///D:/Curiosity/Projects/Eclipse/WSDL/sys_variable_value.do.xml -p org.curiosity.snowclient -d adb -s -o D:\Curiosity\Projects\Eclipse\org.curiosity.snowclient
