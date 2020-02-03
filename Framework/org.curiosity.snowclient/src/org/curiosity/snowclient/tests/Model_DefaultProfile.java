@@ -24,4 +24,16 @@ public class Model_DefaultProfile
 
         snClient.setFieldValue("sys_user", "first_name", "james");
     }
+
+    public static void main(String[] args)
+    {
+        try {
+            Model_DefaultProfile mod = new Model_DefaultProfile();
+            mod.PositivesetFieldValue();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
 }

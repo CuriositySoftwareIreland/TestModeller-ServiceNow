@@ -12,13 +12,13 @@ public class TestMethods {
 		SNowATFClient client = new SNowATFClient("", "", "");
 		//client.listAllAtfInputVariable("Open a New Form");
 		//return;
-		
-		String stepType = "Open a New Form";
-		
+
 		ServiceNow_sys_atf_test_suiteStub.InsertResponse suite = client.addTestSuite("My test suite 22", "Model Name", "aaa-bbb-ccc-dddd");
 		
 		ServiceNow_sys_atf_testStub.InsertResponse testCase = client.addTestCase(suite.getSys_id(), "My test case", "");
-		
+
+		String stepType = "Open a New Form";
+
 		ServiceNow_sys_atf_stepStub.InsertResponse testStep = client.addTestStep(testCase.getSys_id(), stepType, "sys_user", stepType);
 		
 		client.setTestStepVariable(testStep.getSys_id(), stepType, "Table", "sys_user");

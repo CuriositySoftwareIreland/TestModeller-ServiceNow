@@ -23,7 +23,7 @@ public class ServiceNowClient
 	
 	public ServiceNowClient() throws Exception
 	{
-		try (InputStream input = ServiceNowClient.class.getClassLoader().getResourceAsStream("config.properties")) {
+		try (InputStream input = ServiceNowClient.class.getClassLoader().getResourceAsStream("resources/config.properties")) {
 
             Properties prop = new Properties();
 
@@ -67,6 +67,25 @@ public class ServiceNowClient
 		client.setTestStepVariable(currentTestStepSysId, stepType, variableName, variableValue);
 	}
 
+	/**
+	 * @name Open a New Form
+	 * @param table Name of service now table
+	 */
+	public void openForm(String table) throws Exception{
+		String stepType = "Open a New Form";
+
+		ServiceNow_sys_atf_stepStub.InsertResponse testStep = client.addTestStep(currentTestCaseSysId, stepType, table, stepType);
+
+		client.setTestStepVariable(testStep.getSys_id(), stepType, "Table", table);
+
+	}
+
+	/**
+	 * @name Set Field Value
+	 * @param table Name of service now table
+	 * @param variable Field to set
+	 * @param value Value of field
+	 */
 	public void setFieldValue(String table, String variable, String value) throws Exception {
 		ServiceNow_sys_atf_stepStub.InsertResponse testStepEnterLastName = client.addTestStep(currentTestCaseSysId, "Set Field Values", table, "Set field");
 
@@ -75,6 +94,10 @@ public class ServiceNowClient
 		client.setTestStepVariable(testStepEnterLastName.getSys_id(), "Set Field Values", "Field values", variable + "=" + value);
 	}
 
+	/**
+	 * @name Click Submit
+	 * @param table Name of service now table
+	 */
 	public void clickSubmit(String table) throws Exception {
 		ServiceNow_sys_atf_stepStub.InsertResponse testStepClickSubmit = client.addTestStep(currentTestCaseSysId, "Click a UI Action", "sys_user", "Click submit");
 		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "Table", table);
