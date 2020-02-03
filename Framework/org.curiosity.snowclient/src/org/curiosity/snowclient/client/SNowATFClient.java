@@ -1,11 +1,9 @@
-package org.curiosity.snowclient;
+package org.curiosity.snowclient.client;
 
-import java.math.BigDecimal;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.axis2.AxisFault;
 import org.apache.axis2.transport.http.impl.httpclient4.HttpTransportPropertiesImpl;
 import org.apache.axis2.transport.http.impl.httpclient4.HttpTransportPropertiesImpl.Authenticator;
 
@@ -91,7 +89,7 @@ public class SNowATFClient
 		if (response != null && response.getGetRecordsResult() != null && response.getGetRecordsResult().length > 0) 
 		{	
 			for (int i = 0; i < response.getGetRecordsResult().length; i++) {
-				org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple deleteMultiple = new org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple();
+				ServiceNow_sys_atf_test_suiteStub.DeleteMultiple deleteMultiple = new ServiceNow_sys_atf_test_suiteStub.DeleteMultiple();
 				deleteMultiple.setSys_id(response.getGetRecordsResult()[i].getSys_id());
 				testSuiteStub.deleteMultiple(deleteMultiple);
 			}

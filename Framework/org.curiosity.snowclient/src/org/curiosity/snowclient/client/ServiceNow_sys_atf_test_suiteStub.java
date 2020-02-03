@@ -4,7 +4,7 @@
  * This file was auto-generated from WSDL
  * by the Apache Axis2 version: 1.7.9  Built on : Nov 16, 2018 (12:05:37 GMT)
  */
-package org.curiosity.snowclient;
+package org.curiosity.snowclient.client;
 
 
 /*
@@ -166,8 +166,8 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
      * @see org.curiosity.snowclient.ServiceNow_sys_atf_test_suite#insert
      * @param insert
      */
-    public org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.InsertResponse insert(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Insert insert)
+    public ServiceNow_sys_atf_test_suiteStub.InsertResponse insert(
+        ServiceNow_sys_atf_test_suiteStub.Insert insert)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -211,9 +211,9 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.InsertResponse.class);
+                    ServiceNow_sys_atf_test_suiteStub.InsertResponse.class);
 
-            return (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.InsertResponse) object;
+            return (ServiceNow_sys_atf_test_suiteStub.InsertResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -279,8 +279,8 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
      * @see org.curiosity.snowclient.ServiceNow_sys_atf_test_suite#update
      * @param update
      */
-    public org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.UpdateResponse update(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Update update)
+    public ServiceNow_sys_atf_test_suiteStub.UpdateResponse update(
+        ServiceNow_sys_atf_test_suiteStub.Update update)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -324,9 +324,9 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.UpdateResponse.class);
+                    ServiceNow_sys_atf_test_suiteStub.UpdateResponse.class);
 
-            return (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.UpdateResponse) object;
+            return (ServiceNow_sys_atf_test_suiteStub.UpdateResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -392,8 +392,8 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
      * @see org.curiosity.snowclient.ServiceNow_sys_atf_test_suite#getRecords
      * @param getRecords
      */
-    public org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse getRecords(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecords getRecords)
+    public ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse getRecords(
+        ServiceNow_sys_atf_test_suiteStub.GetRecords getRecords)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -437,9 +437,9 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse.class);
+                    ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse.class);
 
-            return (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse) object;
+            return (ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -505,8 +505,8 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
      * @see org.curiosity.snowclient.ServiceNow_sys_atf_test_suite#getKeys
      * @param getKeys
      */
-    public org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeysResponse getKeys(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeys getKeys)
+    public ServiceNow_sys_atf_test_suiteStub.GetKeysResponse getKeys(
+        ServiceNow_sys_atf_test_suiteStub.GetKeys getKeys)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -550,9 +550,9 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeysResponse.class);
+                    ServiceNow_sys_atf_test_suiteStub.GetKeysResponse.class);
 
-            return (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeysResponse) object;
+            return (ServiceNow_sys_atf_test_suiteStub.GetKeysResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -618,8 +618,8 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
      * @see org.curiosity.snowclient.ServiceNow_sys_atf_test_suite#deleteRecord
      * @param deleteRecord
      */
-    public org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse deleteRecord(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecord deleteRecord)
+    public ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse deleteRecord(
+        ServiceNow_sys_atf_test_suiteStub.DeleteRecord deleteRecord)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -663,9 +663,9 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse.class);
+                    ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse.class);
 
-            return (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse) object;
+            return (ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -731,8 +731,8 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
      * @see org.curiosity.snowclient.ServiceNow_sys_atf_test_suite#deleteMultiple
      * @param deleteMultiple
      */
-    public org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse deleteMultiple(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple deleteMultiple)
+    public ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse deleteMultiple(
+        ServiceNow_sys_atf_test_suiteStub.DeleteMultiple deleteMultiple)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -776,9 +776,9 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse.class);
+                    ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse.class);
 
-            return (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse) object;
+            return (ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -844,8 +844,8 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
      * @see org.curiosity.snowclient.ServiceNow_sys_atf_test_suite#get
      * @param get
      */
-    public org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetResponse get(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Get get)
+    public ServiceNow_sys_atf_test_suiteStub.GetResponse get(
+        ServiceNow_sys_atf_test_suiteStub.Get get)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -888,9 +888,9 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetResponse.class);
+                    ServiceNow_sys_atf_test_suiteStub.GetResponse.class);
 
-            return (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetResponse) object;
+            return (ServiceNow_sys_atf_test_suiteStub.GetResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -965,10 +965,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Insert param,
+        ServiceNow_sys_atf_test_suiteStub.Insert param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Insert.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.Insert.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -976,10 +976,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.InsertResponse param,
+        ServiceNow_sys_atf_test_suiteStub.InsertResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.InsertResponse.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.InsertResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -987,10 +987,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Update param,
+        ServiceNow_sys_atf_test_suiteStub.Update param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Update.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.Update.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -998,10 +998,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.UpdateResponse param,
+        ServiceNow_sys_atf_test_suiteStub.UpdateResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.UpdateResponse.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.UpdateResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1009,10 +1009,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecords param,
+        ServiceNow_sys_atf_test_suiteStub.GetRecords param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecords.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.GetRecords.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1020,10 +1020,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse param,
+        ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1031,10 +1031,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeys param,
+        ServiceNow_sys_atf_test_suiteStub.GetKeys param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeys.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.GetKeys.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1042,10 +1042,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeysResponse param,
+        ServiceNow_sys_atf_test_suiteStub.GetKeysResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeysResponse.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.GetKeysResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1053,10 +1053,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecord param,
+        ServiceNow_sys_atf_test_suiteStub.DeleteRecord param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecord.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.DeleteRecord.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1064,10 +1064,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse param,
+        ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1075,10 +1075,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple param,
+        ServiceNow_sys_atf_test_suiteStub.DeleteMultiple param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.DeleteMultiple.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1086,10 +1086,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse param,
+        ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1097,10 +1097,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Get param,
+        ServiceNow_sys_atf_test_suiteStub.Get param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Get.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.Get.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1108,10 +1108,10 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetResponse param,
+        ServiceNow_sys_atf_test_suiteStub.GetResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetResponse.MY_QNAME,
+            return param.getOMElement(ServiceNow_sys_atf_test_suiteStub.GetResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1120,14 +1120,14 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
 
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Insert param,
+        ServiceNow_sys_atf_test_suiteStub.Insert param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Insert.MY_QNAME,
+                    ServiceNow_sys_atf_test_suiteStub.Insert.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1139,14 +1139,14 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Update param,
+        ServiceNow_sys_atf_test_suiteStub.Update param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Update.MY_QNAME,
+                    ServiceNow_sys_atf_test_suiteStub.Update.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1158,14 +1158,14 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecords param,
+        ServiceNow_sys_atf_test_suiteStub.GetRecords param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecords.MY_QNAME,
+                    ServiceNow_sys_atf_test_suiteStub.GetRecords.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1177,14 +1177,14 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeys param,
+        ServiceNow_sys_atf_test_suiteStub.GetKeys param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeys.MY_QNAME,
+                    ServiceNow_sys_atf_test_suiteStub.GetKeys.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1196,14 +1196,14 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecord param,
+        ServiceNow_sys_atf_test_suiteStub.DeleteRecord param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecord.MY_QNAME,
+                    ServiceNow_sys_atf_test_suiteStub.DeleteRecord.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1215,14 +1215,14 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple param,
+        ServiceNow_sys_atf_test_suiteStub.DeleteMultiple param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple.MY_QNAME,
+                    ServiceNow_sys_atf_test_suiteStub.DeleteMultiple.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1234,14 +1234,14 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Get param,
+        ServiceNow_sys_atf_test_suiteStub.Get param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Get.MY_QNAME,
+                    ServiceNow_sys_atf_test_suiteStub.Get.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1263,74 +1263,74 @@ public class ServiceNow_sys_atf_test_suiteStub extends org.apache.axis2.client.S
     private java.lang.Object fromOM(org.apache.axiom.om.OMElement param,
         java.lang.Class type) throws org.apache.axis2.AxisFault {
         try {
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.DeleteMultiple.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.DeleteMultiple.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.DeleteMultipleResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecord.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.DeleteRecord.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecord.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.DeleteRecord.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.DeleteRecordResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Get.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.Get.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Get.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.Get.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeys.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.GetKeys.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeys.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.GetKeys.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeysResponse.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.GetKeysResponse.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetKeysResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.GetKeysResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecords.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.GetRecords.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecords.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.GetRecords.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetResponse.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.GetResponse.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.GetResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.GetResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Insert.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.Insert.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Insert.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.Insert.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.InsertResponse.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.InsertResponse.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.InsertResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.InsertResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Update.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.Update.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.Update.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.Update.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.UpdateResponse.class.equals(
+            if (ServiceNow_sys_atf_test_suiteStub.UpdateResponse.class.equals(
                         type)) {
-                return org.curiosity.snowclient.ServiceNow_sys_atf_test_suiteStub.UpdateResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return ServiceNow_sys_atf_test_suiteStub.UpdateResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
         } catch (java.lang.Exception e) {
             throw org.apache.axis2.AxisFault.makeFault(e);

@@ -1,9 +1,4 @@
-package org.curiosity.snowclient;
-
-import java.io.IOException;
-import java.rmi.RemoteException;
-
-import org.curiosity.*;
+package org.curiosity.snowclient.client;
 
 public class TestMethods {
 

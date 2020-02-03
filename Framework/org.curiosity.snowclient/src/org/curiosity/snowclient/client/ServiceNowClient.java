@@ -1,12 +1,10 @@
 /**
  * 
  */
-package org.curiosity.snowclient;
+package org.curiosity.snowclient.client;
 
 import java.io.InputStream;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.rmi.RemoteException;
 import java.util.Properties;
 
 /**
@@ -101,5 +99,8 @@ public class ServiceNowClient
 	public void clickSubmit(String table) throws Exception {
 		ServiceNow_sys_atf_stepStub.InsertResponse testStepClickSubmit = client.addTestStep(currentTestCaseSysId, "Click a UI Action", "sys_user", "Click submit");
 		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "Table", table);
+
+		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "UI Action", "Submit");
+
 	}
 }
