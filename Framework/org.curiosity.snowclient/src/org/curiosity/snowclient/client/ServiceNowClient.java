@@ -85,7 +85,7 @@ public class ServiceNowClient
 	 * @param value Value of field
 	 */
 	public void setFieldValue(String table, String variable, String value) throws Exception {
-		ServiceNow_sys_atf_stepStub.InsertResponse testStepEnterLastName = client.addTestStep(currentTestCaseSysId, "Set Field Values", table, "Set field");
+		ServiceNow_sys_atf_stepStub.InsertResponse testStepEnterLastName = client.addTestStep(currentTestCaseSysId, "Set Field Values", table, "Set field " + variable + " with value " + value);
 
 		client.setTestStepVariable(testStepEnterLastName.getSys_id(), "Set Field Values", "Table", table);
 
@@ -97,10 +97,21 @@ public class ServiceNowClient
 	 * @param table Name of service now table
 	 */
 	public void clickSubmit(String table) throws Exception {
-		ServiceNow_sys_atf_stepStub.InsertResponse testStepClickSubmit = client.addTestStep(currentTestCaseSysId, "Click a UI Action", "sys_user", "Click submit");
+		ServiceNow_sys_atf_stepStub.InsertResponse testStepClickSubmit = client.addTestStep(currentTestCaseSysId, "Click a UI Action", table, "Click submit");
 		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "Table", table);
 
 		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "UI Action", "Submit");
+	}
 
+	/**
+	 * @name Click Button
+	 * @param table Name of service now table
+	 * @param button Button name
+	 */
+	public void clickButton(String table, String button) throws Exception {
+		ServiceNow_sys_atf_stepStub.InsertResponse testStepClickSubmit = client.addTestStep(currentTestCaseSysId, "Click a UI Action", table, "Click " + button);
+		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "Table", table);
+
+		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "UI Action", button);
 	}
 }
