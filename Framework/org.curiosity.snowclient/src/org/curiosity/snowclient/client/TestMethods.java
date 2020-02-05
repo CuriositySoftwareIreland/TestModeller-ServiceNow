@@ -8,6 +8,8 @@ public class TestMethods {
 		//client.listAllAtfInputVariable("Open a New Form");
 		//return;
 
+		client.deleteTestSuites("Model Name", "aaa-bbb-ccc-dddd");
+		
 		ServiceNow_sys_atf_test_suiteStub.InsertResponse suite = client.addTestSuite("My test suite 22", "Model Name", "aaa-bbb-ccc-dddd");
 		
 		ServiceNow_sys_atf_testStub.InsertResponse testCase = client.addTestCase(suite.getSys_id(), "My test case", "");
@@ -28,7 +30,8 @@ public class TestMethods {
 		
 		ServiceNow_sys_atf_stepStub.InsertResponse testStepClickSubmit = client.addTestStep(testCase.getSys_id(), "Click a UI Action", "sys_user", "Click submit");
 		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "Table", "sys_user");
-		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "UI action", "Submit");
+		String sysIdUIAction = client.getUIActionSysId("", "sysverb_insert");
+		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "UI action", sysIdUIAction);
 		
 		//System.out.println(testCase.getSys_id());
 		//System.out.println(testStep.getSys_id());

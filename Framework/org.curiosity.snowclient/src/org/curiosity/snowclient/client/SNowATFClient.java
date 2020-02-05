@@ -21,6 +21,7 @@ public class SNowATFClient
 	private ServiceNow_atf_input_variableStub inputVariableStub;
 	private ServiceNow_sys_atf_stepStub testStepStub;
 	private ServiceNow_sys_variable_valueStub sysVariableValueStub;
+    private ServiceNow_sys_ui_actionStub sysUIActionStub;
 	
 	public SNowATFClient(String instanceURL, String userName, String password) throws Exception
 	{
@@ -59,6 +60,9 @@ public class SNowATFClient
 		
 		sysVariableValueStub = new ServiceNow_sys_variable_valueStub(SNowInstanceURL + "/sys_variable_value.do?SOAP");
 		SetStubAuth(sysVariableValueStub);
+
+		sysUIActionStub = new ServiceNow_sys_ui_actionStub(SNowInstanceURL + "/sys_ui_action.do?SOAP");
+		SetStubAuth(sysUIActionStub);
 	}
 	
 	private void SetStubAuth(org.apache.axis2.client.Stub stub)
@@ -78,18 +82,28 @@ public class SNowATFClient
 	{
 		return modelName + " - " + modelGuid;
 	}
-	
-	public void getTestSuites(String modelName, String modelGuid) throws RemoteException
+
+	public ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse getTestSuites(String modelName, String modelGuid) throws RemoteException
 	{
 		ServiceNow_sys_atf_test_suiteStub.GetRecords getRecords = new ServiceNow_sys_atf_test_suiteStub.GetRecords();
 		getRecords.setDescription(getModelDescription(modelName, modelGuid));
-		
+
 		ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse response = testSuiteStub.getRecords(getRecords);
-		
-		if (response != null && response.getGetRecordsResult() != null && response.getGetRecordsResult().length > 0) 
-		{	
+
+		return response;
+	}
+
+	public void deleteTestSuites(String modelName, String modelGuid) throws RemoteException
+	{
+		ServiceNow_sys_atf_test_suiteStub.GetRecords getRecords = new ServiceNow_sys_atf_test_suiteStub.GetRecords();
+		getRecords.setDescription(getModelDescription(modelName, modelGuid));
+
+		ServiceNow_sys_atf_test_suiteStub.GetRecordsResponse response = testSuiteStub.getRecords(getRecords);
+
+		if (response != null && response.getGetRecordsResult() != null && response.getGetRecordsResult().length > 0)
+		{
 			for (int i = 0; i < response.getGetRecordsResult().length; i++) {
-				ServiceNow_sys_atf_test_suiteStub.DeleteMultiple deleteMultiple = new ServiceNow_sys_atf_test_suiteStub.DeleteMultiple();
+				org.curiosity.snowclient.client.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple deleteMultiple = new org.curiosity.snowclient.client.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple();
 				deleteMultiple.setSys_id(response.getGetRecordsResult()[i].getSys_id());
 				testSuiteStub.deleteMultiple(deleteMultiple);
 			}
@@ -283,5 +297,24 @@ public class SNowATFClient
 		ServiceNow_sys_variable_valueStub.GetRecordsResponse response = sysVariableValueStub.getRecords(getRecords);
 		
 		return response;
+	}
+
+	public String getUIActionSysId(String tableName, String actionName) throws Exception
+	{
+		ServiceNow_sys_ui_actionStub.GetRecords getRecords = new ServiceNow_sys_ui_actionStub.GetRecords();
+		getRecords.setAction_name(actionName);
+		if (!tableName.isEmpty())
+		{
+			getRecords.setTable(tableName);
+		}
+
+		ServiceNow_sys_ui_actionStub.GetRecordsResponse response = sysUIActionStub.getRecords(getRecords);
+
+		if (response != null && response.getGetRecordsResult() != null && response.getGetRecordsResult().length > 0)
+		{
+			return response.getGetRecordsResult()[0].getSys_id();
+		}
+
+		return "";
 	}
 }
