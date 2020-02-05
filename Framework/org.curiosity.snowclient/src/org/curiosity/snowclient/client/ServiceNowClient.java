@@ -100,7 +100,8 @@ public class ServiceNowClient
 		ServiceNow_sys_atf_stepStub.InsertResponse testStepClickSubmit = client.addTestStep(currentTestCaseSysId, "Click a UI Action", table, "Click submit");
 		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "Table", table);
 
-		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "UI Action", "Submit");
+		String sysIdUIAction = client.getUIActionSysId("", "sysverb_insert");
+		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "UI action", sysIdUIAction);
 	}
 
 	/**
@@ -112,6 +113,7 @@ public class ServiceNowClient
 		ServiceNow_sys_atf_stepStub.InsertResponse testStepClickSubmit = client.addTestStep(currentTestCaseSysId, "Click a UI Action", table, "Click " + button);
 		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "Table", table);
 
-		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "UI Action", button);
+		String sysIdUIAction = client.getUIActionSysId(table, button);
+		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "UI action", sysIdUIAction);
 	}
 }

@@ -42,4 +42,14 @@ public class GenericServiceNow {
     public void clickSubmit(String table) throws Exception {
         snClient.clickSubmit(table);
     }
+
+    /**
+     * @name Click Button
+     * @param table Name of service now table
+     * @param button Id of the button
+     */
+    public void clickButton(String table, String button) throws Exception {
+        snClient.clickButton(table, button);
+    }
+
 }

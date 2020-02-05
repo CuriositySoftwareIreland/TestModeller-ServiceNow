@@ -25,7 +25,7 @@ public class SysUserPage {
 
     private String mobileField = "mobile_phone";
 
-    private String submitButton = "Submit";
+    private String submitButton = "sysverb_insert";
 
     public SysUserPage(ServiceNowClient cl)
     {
