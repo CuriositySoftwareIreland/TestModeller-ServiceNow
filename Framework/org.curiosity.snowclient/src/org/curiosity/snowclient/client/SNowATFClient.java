@@ -6,6 +6,9 @@ import java.util.List;
 
 import org.apache.axis2.transport.http.impl.httpclient4.HttpTransportPropertiesImpl;
 import org.apache.axis2.transport.http.impl.httpclient4.HttpTransportPropertiesImpl.Authenticator;
+import org.curiosity.snowclient.ServiceNow_sys_atf_test_suite_testStub;
+import org.curiosity.snowclient.client.ServiceNow_sys_atf_test_suiteStub;
+import org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub;
 
 public class SNowATFClient 
 {
@@ -103,9 +106,9 @@ public class SNowATFClient
 		if (response != null && response.getGetRecordsResult() != null && response.getGetRecordsResult().length > 0)
 		{
 			for (int i = 0; i < response.getGetRecordsResult().length; i++) {
-				org.curiosity.snowclient.client.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple deleteMultiple = new org.curiosity.snowclient.client.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple();
-				deleteMultiple.setSys_id(response.getGetRecordsResult()[i].getSys_id());
-				testSuiteStub.deleteMultiple(deleteMultiple);
+//				org.curiosity.snowclient.client.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple deleteMultiple = new org.curiosity.snowclient.client.ServiceNow_sys_atf_test_suiteStub.DeleteMultiple();
+//				deleteMultiple.setSys_id(response.getGetRecordsResult()[i].getSys_id());
+//				testSuiteStub.deleteMultiple(deleteMultiple);
 			}
 		}
 	}

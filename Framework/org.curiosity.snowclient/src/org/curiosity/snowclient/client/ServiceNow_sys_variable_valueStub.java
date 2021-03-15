@@ -56,7 +56,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
         org.apache.axis2.context.ConfigurationContext configurationContext)
         throws org.apache.axis2.AxisFault {
         this(configurationContext,
-            "https://dev75196.service-now.com/sys_variable_value.do?SOAP");
+            "https://dev105646.service-now.com/sys_variable_value.do.do/?SOAP");
     }
 
     /**
@@ -64,7 +64,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
      */
     public ServiceNow_sys_variable_valueStub()
         throws org.apache.axis2.AxisFault {
-        this("https://dev75196.service-now.com/sys_variable_value.do?SOAP");
+        this("https://dev105646.service-now.com/sys_variable_value.do.do/?SOAP");
     }
 
     /**
@@ -163,11 +163,11 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_variable_value#getRecords
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_variable_value#getRecords
      * @param getRecords
      */
-    public ServiceNow_sys_variable_valueStub.GetRecordsResponse getRecords(
-        ServiceNow_sys_variable_valueStub.GetRecords getRecords)
+    public org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecordsResponse getRecords(
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecords getRecords)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -211,9 +211,9 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_variable_valueStub.GetRecordsResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecordsResponse.class);
 
-            return (ServiceNow_sys_variable_valueStub.GetRecordsResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecordsResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -276,11 +276,11 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_variable_value#insert
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_variable_value#insert
      * @param insert
      */
-    public ServiceNow_sys_variable_valueStub.InsertResponse insert(
-        ServiceNow_sys_variable_valueStub.Insert insert)
+    public org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.InsertResponse insert(
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Insert insert)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -324,9 +324,9 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_variable_valueStub.InsertResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.InsertResponse.class);
 
-            return (ServiceNow_sys_variable_valueStub.InsertResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.InsertResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -389,11 +389,11 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_variable_value#update
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_variable_value#update
      * @param update
      */
-    public ServiceNow_sys_variable_valueStub.UpdateResponse update(
-        ServiceNow_sys_variable_valueStub.Update update)
+    public org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.UpdateResponse update(
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Update update)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -437,9 +437,9 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_variable_valueStub.UpdateResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.UpdateResponse.class);
 
-            return (ServiceNow_sys_variable_valueStub.UpdateResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.UpdateResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -502,11 +502,11 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_variable_value#getKeys
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_variable_value#getKeys
      * @param getKeys
      */
-    public ServiceNow_sys_variable_valueStub.GetKeysResponse getKeys(
-        ServiceNow_sys_variable_valueStub.GetKeys getKeys)
+    public org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeysResponse getKeys(
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeys getKeys)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -550,9 +550,9 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_variable_valueStub.GetKeysResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeysResponse.class);
 
-            return (ServiceNow_sys_variable_valueStub.GetKeysResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeysResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -615,11 +615,11 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_variable_value#deleteRecord
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_variable_value#deleteRecord
      * @param deleteRecord
      */
-    public ServiceNow_sys_variable_valueStub.DeleteRecordResponse deleteRecord(
-        ServiceNow_sys_variable_valueStub.DeleteRecord deleteRecord)
+    public org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecordResponse deleteRecord(
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecord deleteRecord)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -663,9 +663,9 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_variable_valueStub.DeleteRecordResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecordResponse.class);
 
-            return (ServiceNow_sys_variable_valueStub.DeleteRecordResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecordResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -728,11 +728,11 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_variable_value#deleteMultiple
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_variable_value#deleteMultiple
      * @param deleteMultiple
      */
-    public ServiceNow_sys_variable_valueStub.DeleteMultipleResponse deleteMultiple(
-        ServiceNow_sys_variable_valueStub.DeleteMultiple deleteMultiple)
+    public org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultipleResponse deleteMultiple(
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultiple deleteMultiple)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -776,9 +776,9 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_variable_valueStub.DeleteMultipleResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultipleResponse.class);
 
-            return (ServiceNow_sys_variable_valueStub.DeleteMultipleResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultipleResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -841,11 +841,11 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_variable_value#get
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_variable_value#get
      * @param get
      */
-    public ServiceNow_sys_variable_valueStub.GetResponse get(
-        ServiceNow_sys_variable_valueStub.Get get)
+    public org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetResponse get(
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Get get)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -888,9 +888,9 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_variable_valueStub.GetResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetResponse.class);
 
-            return (ServiceNow_sys_variable_valueStub.GetResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -965,10 +965,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.GetRecords param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecords param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.GetRecords.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecords.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -976,10 +976,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.GetRecordsResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecordsResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.GetRecordsResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecordsResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -987,10 +987,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.Insert param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Insert param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.Insert.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Insert.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -998,10 +998,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.InsertResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.InsertResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.InsertResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.InsertResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1009,10 +1009,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.Update param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Update param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.Update.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Update.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1020,10 +1020,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.UpdateResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.UpdateResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.UpdateResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.UpdateResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1031,10 +1031,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.GetKeys param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeys param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.GetKeys.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeys.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1042,10 +1042,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.GetKeysResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeysResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.GetKeysResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeysResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1053,10 +1053,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.DeleteRecord param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecord param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.DeleteRecord.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecord.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1064,10 +1064,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.DeleteRecordResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecordResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.DeleteRecordResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecordResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1075,10 +1075,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.DeleteMultiple param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultiple param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.DeleteMultiple.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultiple.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1086,10 +1086,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.DeleteMultipleResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultipleResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.DeleteMultipleResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultipleResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1097,10 +1097,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.Get param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Get param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.Get.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Get.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1108,10 +1108,10 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_variable_valueStub.GetResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_variable_valueStub.GetResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1120,14 +1120,14 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
 
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_variable_valueStub.GetRecords param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecords param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_variable_valueStub.GetRecords.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecords.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1139,14 +1139,14 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_variable_valueStub.Insert param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Insert param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_variable_valueStub.Insert.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Insert.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1158,14 +1158,14 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_variable_valueStub.Update param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Update param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_variable_valueStub.Update.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Update.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1177,14 +1177,14 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_variable_valueStub.GetKeys param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeys param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_variable_valueStub.GetKeys.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeys.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1196,14 +1196,14 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_variable_valueStub.DeleteRecord param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecord param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_variable_valueStub.DeleteRecord.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecord.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1215,14 +1215,14 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_variable_valueStub.DeleteMultiple param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultiple param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_variable_valueStub.DeleteMultiple.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultiple.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1234,14 +1234,14 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_variable_valueStub.Get param,
+        org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Get param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_variable_valueStub.Get.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Get.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1263,74 +1263,74 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
     private java.lang.Object fromOM(org.apache.axiom.om.OMElement param,
         java.lang.Class type) throws org.apache.axis2.AxisFault {
         try {
-            if (ServiceNow_sys_variable_valueStub.DeleteMultiple.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultiple.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.DeleteMultiple.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultiple.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.DeleteMultipleResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultipleResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.DeleteMultipleResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteMultipleResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.DeleteRecord.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecord.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.DeleteRecord.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecord.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.DeleteRecordResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecordResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.DeleteRecordResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.DeleteRecordResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.Get.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Get.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.Get.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Get.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.GetKeys.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeys.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.GetKeys.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeys.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.GetKeysResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeysResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.GetKeysResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetKeysResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.GetRecords.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecords.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.GetRecords.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecords.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.GetRecordsResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecordsResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.GetRecordsResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetRecordsResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.GetResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.GetResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.GetResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.Insert.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Insert.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.Insert.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Insert.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.InsertResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.InsertResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.InsertResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.InsertResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.Update.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Update.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.Update.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.Update.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_variable_valueStub.UpdateResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.UpdateResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_variable_valueStub.UpdateResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_variable_valueStub.UpdateResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
         } catch (java.lang.Exception e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1339,7 +1339,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
         return null;
     }
 
-    //https://dev75196.service-now.com/sys_variable_value.do?SOAP
+    //https://dev105646.service-now.com/sys_variable_value.do.do/?SOAP
     public static class GetRecordsResponse implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.service-now.com/sys_variable_value",
                 "getRecordsResponse", "ns1");
@@ -1457,8 +1457,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                     for (int i = 0; i < localGetRecordsResult.length; i++) {
                         if (localGetRecordsResult[i] != null) {
                             localGetRecordsResult[i].serialize(new javax.xml.namespace.QName(
-                                    "http://www.service-now.com/sys_variable_value",
-                                    "getRecordsResult"), xmlWriter);
+                                    "", "getRecordsResult"), xmlWriter);
                         } else {
                             // we don't have to do any thing since minOccures is zero
                         }
@@ -1751,9 +1750,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "getRecordsResult").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "getRecordsResult").equals(
+                                reader.getName())) {
                         // Process the array and step past its final element's end.
                         list1.add(GetRecordsResult_type0.Factory.parse(reader));
 
@@ -1777,8 +1775,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                                 //two continuous end elements means we are exiting the xml structure
                                 loopDone1 = true;
                             } else {
-                                if (new javax.xml.namespace.QName(
-                                            "http://www.service-now.com/sys_variable_value",
+                                if (new javax.xml.namespace.QName("",
                                             "getRecordsResult").equals(
                                             reader.getName())) {
                                     list1.add(GetRecordsResult_type0.Factory.parse(
@@ -2528,7 +2525,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocumentTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document", xmlWriter);
 
                 if (localDocument == null) {
@@ -2543,7 +2540,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocument_keyTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document_key", xmlWriter);
 
                 if (localDocument_key == null) {
@@ -2558,7 +2555,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -2574,7 +2571,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -2589,7 +2586,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -2604,7 +2601,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -2619,7 +2616,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -2634,7 +2631,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -2650,7 +2647,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -2665,7 +2662,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -2680,7 +2677,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localValueTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "value", xmlWriter);
 
                 if (localValue == null) {
@@ -2695,7 +2692,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localVariableTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "variable", xmlWriter);
 
                 if (localVariable == null) {
@@ -2710,7 +2707,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__use_viewTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__use_view", xmlWriter);
 
                 if (local__use_view == null) {
@@ -2725,7 +2722,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__encoded_queryTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__encoded_query", xmlWriter);
 
                 if (local__encoded_query == null) {
@@ -2740,7 +2737,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__limitTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__limit", xmlWriter);
 
                 if (local__limit == null) {
@@ -2755,7 +2752,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__first_rowTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__first_row", xmlWriter);
 
                 if (local__first_row == null) {
@@ -2770,7 +2767,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__last_rowTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__last_row", xmlWriter);
 
                 if (local__last_row == null) {
@@ -2785,7 +2782,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__order_byTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__order_by", xmlWriter);
 
                 if (local__order_by == null) {
@@ -2800,7 +2797,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__order_by_descTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__order_by_desc", xmlWriter);
 
                 if (local__order_by_desc == null) {
@@ -2815,7 +2812,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__exclude_columnsTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__exclude_columns",
                     xmlWriter);
 
@@ -3110,9 +3107,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3138,9 +3134,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3166,9 +3161,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3193,9 +3187,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3221,9 +3214,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3249,9 +3241,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3277,9 +3268,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3305,9 +3295,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3333,9 +3322,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3361,9 +3349,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3389,9 +3376,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3416,9 +3402,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "variable").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "variable").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3444,9 +3429,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__use_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__use_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3472,9 +3456,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__encoded_query").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__encoded_query").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3500,9 +3483,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__limit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__limit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3528,9 +3510,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__first_row").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__first_row").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3556,9 +3537,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__last_row").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__last_row").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3584,9 +3564,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__order_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__order_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3612,9 +3591,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__order_by_desc").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__order_by_desc").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -3640,8 +3618,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
+                            new javax.xml.namespace.QName("",
                                 "__exclude_columns").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -3921,7 +3898,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocumentTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document", xmlWriter);
 
                 if (localDocument == null) {
@@ -3936,7 +3913,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocument_keyTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document_key", xmlWriter);
 
                 if (localDocument_key == null) {
@@ -3951,7 +3928,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -3966,7 +3943,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                 xmlWriter.writeEndElement();
             }
 
-            namespace = "http://www.service-now.com/sys_variable_value";
+            namespace = "";
             writeStartElement(null, namespace, "sys_id", xmlWriter);
 
             if (localSys_id == null) {
@@ -3980,7 +3957,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             xmlWriter.writeEndElement();
 
             if (localValueTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "value", xmlWriter);
 
                 if (localValue == null) {
@@ -3995,7 +3972,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localVariableTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "variable", xmlWriter);
 
                 if (localVariable == null) {
@@ -4288,9 +4265,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4316,9 +4292,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4344,9 +4319,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4371,9 +4345,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4402,9 +4375,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4429,9 +4401,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "variable").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "variable").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4689,7 +4660,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocumentTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document", xmlWriter);
 
                 if (localDocument == null) {
@@ -4704,7 +4675,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocument_keyTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document_key", xmlWriter);
 
                 if (localDocument_key == null) {
@@ -4719,7 +4690,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -4735,7 +4706,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localValueTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "value", xmlWriter);
 
                 if (localValue == null) {
@@ -4750,7 +4721,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localVariableTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "variable", xmlWriter);
 
                 if (localVariable == null) {
@@ -5043,9 +5014,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5071,9 +5041,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5099,9 +5068,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5126,9 +5094,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5153,9 +5120,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "variable").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "variable").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5659,7 +5625,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocumentTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document", xmlWriter);
 
                 if (localDocument == null) {
@@ -5674,7 +5640,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocument_keyTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document_key", xmlWriter);
 
                 if (localDocument_key == null) {
@@ -5689,7 +5655,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -5705,7 +5671,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -5720,7 +5686,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -5735,7 +5701,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -5750,7 +5716,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -5765,7 +5731,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -5781,7 +5747,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -5796,7 +5762,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -5811,7 +5777,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localValueTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "value", xmlWriter);
 
                 if (localValue == null) {
@@ -5826,7 +5792,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localVariableTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "variable", xmlWriter);
 
                 if (localVariable == null) {
@@ -6120,9 +6086,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6148,9 +6113,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6176,9 +6140,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6203,9 +6166,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6231,9 +6193,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6259,9 +6220,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6287,9 +6247,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6315,9 +6274,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6343,9 +6301,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6371,9 +6328,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6399,9 +6355,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6426,9 +6381,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "variable").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "variable").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6614,7 +6568,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
 
             if (localSys_idTracker) {
                 if (localSys_id != null) {
-                    namespace = "http://www.service-now.com/sys_variable_value";
+                    namespace = "";
 
                     for (int i = 0; i < localSys_id.length; i++) {
                         if (localSys_id[i] != null) {
@@ -6636,7 +6590,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localCountTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "count", xmlWriter);
 
                 if (localCount == null) {
@@ -6932,9 +6886,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         // Process the array and step past its final element's end.
                         list1.add(reader.getElementText());
 
@@ -6959,9 +6912,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                                 //two continuous end elements means we are exiting the xml structure
                                 loopDone1 = true;
                             } else {
-                                if (new javax.xml.namespace.QName(
-                                            "http://www.service-now.com/sys_variable_value",
-                                            "sys_id").equals(reader.getName())) {
+                                if (new javax.xml.namespace.QName("", "sys_id").equals(
+                                            reader.getName())) {
                                     list1.add(reader.getElementText());
                                 } else {
                                     loopDone1 = true;
@@ -6981,9 +6933,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -7108,7 +7059,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -7402,9 +7353,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -7896,7 +7846,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocumentTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document", xmlWriter);
 
                 if (localDocument == null) {
@@ -7911,7 +7861,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocument_keyTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document_key", xmlWriter);
 
                 if (localDocument_key == null) {
@@ -7926,7 +7876,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -7942,7 +7892,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -7957,7 +7907,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -7972,7 +7922,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -7987,7 +7937,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -8002,7 +7952,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -8018,7 +7968,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -8033,7 +7983,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -8048,7 +7998,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localValueTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "value", xmlWriter);
 
                 if (localValue == null) {
@@ -8063,7 +8013,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localVariableTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "variable", xmlWriter);
 
                 if (localVariable == null) {
@@ -8357,9 +8307,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8385,9 +8334,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8413,9 +8361,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8440,9 +8387,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8468,9 +8414,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8496,9 +8441,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8524,9 +8468,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8552,9 +8495,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8580,9 +8522,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8608,9 +8549,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8636,9 +8576,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8663,9 +8602,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "variable").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "variable").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9154,7 +9092,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocumentTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document", xmlWriter);
 
                 if (localDocument == null) {
@@ -9169,7 +9107,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocument_keyTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document_key", xmlWriter);
 
                 if (localDocument_key == null) {
@@ -9184,7 +9122,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -9200,7 +9138,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -9215,7 +9153,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -9230,7 +9168,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -9245,7 +9183,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -9260,7 +9198,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -9276,7 +9214,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -9291,7 +9229,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -9306,7 +9244,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localValueTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "value", xmlWriter);
 
                 if (localValue == null) {
@@ -9321,7 +9259,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localVariableTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "variable", xmlWriter);
 
                 if (localVariable == null) {
@@ -9615,9 +9553,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9643,9 +9580,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9671,9 +9607,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9698,9 +9633,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9726,9 +9660,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9754,9 +9687,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9782,9 +9714,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9810,9 +9741,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9838,9 +9768,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9866,9 +9795,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9894,9 +9822,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9921,9 +9848,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "variable").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "variable").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10544,7 +10470,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocumentTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document", xmlWriter);
 
                 if (localDocument == null) {
@@ -10559,7 +10485,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localDocument_keyTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "document_key", xmlWriter);
 
                 if (localDocument_key == null) {
@@ -10574,7 +10500,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -10590,7 +10516,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -10605,7 +10531,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -10620,7 +10546,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -10635,7 +10561,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -10651,7 +10577,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -10666,7 +10592,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -10681,7 +10607,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localValueTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "value", xmlWriter);
 
                 if (localValue == null) {
@@ -10696,7 +10622,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localVariableTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "variable", xmlWriter);
 
                 if (localVariable == null) {
@@ -10711,7 +10637,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__use_viewTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__use_view", xmlWriter);
 
                 if (local__use_view == null) {
@@ -10726,7 +10652,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__encoded_queryTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__encoded_query", xmlWriter);
 
                 if (local__encoded_query == null) {
@@ -10741,7 +10667,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__limitTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__limit", xmlWriter);
 
                 if (local__limit == null) {
@@ -10756,7 +10682,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__first_rowTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__first_row", xmlWriter);
 
                 if (local__first_row == null) {
@@ -10771,7 +10697,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (local__last_rowTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__last_row", xmlWriter);
 
                 if (local__last_row == null) {
@@ -11064,9 +10990,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11092,9 +11017,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "document_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "document_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11120,9 +11044,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11147,9 +11070,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11175,9 +11097,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11203,9 +11124,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11231,9 +11151,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11259,9 +11178,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11287,9 +11205,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11315,9 +11232,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11342,9 +11258,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "variable").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "variable").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11370,9 +11285,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__use_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__use_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11398,9 +11312,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__encoded_query").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__encoded_query").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11426,9 +11339,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__limit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__limit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11454,9 +11366,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__first_row").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__first_row").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11482,9 +11393,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__last_row").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__last_row").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11610,7 +11520,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -11904,9 +11814,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12019,7 +11928,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                 }
             }
 
-            namespace = "http://www.service-now.com/sys_variable_value";
+            namespace = "";
             writeStartElement(null, namespace, "sys_id", xmlWriter);
 
             if (localSys_id == null) {
@@ -12312,9 +12221,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12443,7 +12351,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localCountTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "count", xmlWriter);
 
                 if (localCount == null) {
@@ -12737,9 +12645,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12864,7 +12771,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             }
 
             if (localCountTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "count", xmlWriter);
 
                 if (localCount == null) {
@@ -13158,9 +13065,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13305,7 +13211,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                 }
             }
 
-            namespace = "http://www.service-now.com/sys_variable_value";
+            namespace = "";
             writeStartElement(null, namespace, "sys_id", xmlWriter);
 
             if (localSys_id == null) {
@@ -13319,7 +13225,7 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
             xmlWriter.writeEndElement();
 
             if (local__use_viewTracker) {
-                namespace = "http://www.service-now.com/sys_variable_value";
+                namespace = "";
                 writeStartElement(null, namespace, "__use_view", xmlWriter);
 
                 if (local__use_view == null) {
@@ -13612,9 +13518,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13643,9 +13548,8 @@ public class ServiceNow_sys_variable_valueStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_variable_value",
-                                "__use_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__use_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 

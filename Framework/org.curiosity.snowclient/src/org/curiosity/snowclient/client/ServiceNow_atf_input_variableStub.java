@@ -56,7 +56,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
         org.apache.axis2.context.ConfigurationContext configurationContext)
         throws org.apache.axis2.AxisFault {
         this(configurationContext,
-            "https://dev75196.service-now.com/atf_input_variable.do?SOAP");
+            "https://dev105646.service-now.com/atf_input_variable.do/?SOAP");
     }
 
     /**
@@ -64,7 +64,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
      */
     public ServiceNow_atf_input_variableStub()
         throws org.apache.axis2.AxisFault {
-        this("https://dev75196.service-now.com/atf_input_variable.do?SOAP");
+        this("https://dev105646.service-now.com/atf_input_variable.do/?SOAP");
     }
 
     /**
@@ -163,11 +163,11 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_atf_input_variable#deleteRecord
+     * @see org.curiosity.snowclient.client.ServiceNow_atf_input_variable#deleteRecord
      * @param deleteRecord
      */
-    public ServiceNow_atf_input_variableStub.DeleteRecordResponse deleteRecord(
-        ServiceNow_atf_input_variableStub.DeleteRecord deleteRecord)
+    public org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecordResponse deleteRecord(
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecord deleteRecord)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -211,9 +211,9 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_atf_input_variableStub.DeleteRecordResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecordResponse.class);
 
-            return (ServiceNow_atf_input_variableStub.DeleteRecordResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecordResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -276,11 +276,11 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_atf_input_variable#getKeys
+     * @see org.curiosity.snowclient.client.ServiceNow_atf_input_variable#getKeys
      * @param getKeys
      */
-    public ServiceNow_atf_input_variableStub.GetKeysResponse getKeys(
-        ServiceNow_atf_input_variableStub.GetKeys getKeys)
+    public org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeysResponse getKeys(
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeys getKeys)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -324,9 +324,9 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_atf_input_variableStub.GetKeysResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeysResponse.class);
 
-            return (ServiceNow_atf_input_variableStub.GetKeysResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeysResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -389,11 +389,11 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_atf_input_variable#getRecords
+     * @see org.curiosity.snowclient.client.ServiceNow_atf_input_variable#getRecords
      * @param getRecords
      */
-    public ServiceNow_atf_input_variableStub.GetRecordsResponse getRecords(
-        ServiceNow_atf_input_variableStub.GetRecords getRecords)
+    public org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecordsResponse getRecords(
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecords getRecords)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -437,9 +437,9 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_atf_input_variableStub.GetRecordsResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecordsResponse.class);
 
-            return (ServiceNow_atf_input_variableStub.GetRecordsResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecordsResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -502,11 +502,11 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_atf_input_variable#insert
+     * @see org.curiosity.snowclient.client.ServiceNow_atf_input_variable#insert
      * @param insert
      */
-    public ServiceNow_atf_input_variableStub.InsertResponse insert(
-        ServiceNow_atf_input_variableStub.Insert insert)
+    public org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.InsertResponse insert(
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Insert insert)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -550,9 +550,9 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_atf_input_variableStub.InsertResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.InsertResponse.class);
 
-            return (ServiceNow_atf_input_variableStub.InsertResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.InsertResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -615,11 +615,11 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_atf_input_variable#update
+     * @see org.curiosity.snowclient.client.ServiceNow_atf_input_variable#update
      * @param update
      */
-    public ServiceNow_atf_input_variableStub.UpdateResponse update(
-        ServiceNow_atf_input_variableStub.Update update)
+    public org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.UpdateResponse update(
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Update update)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -663,9 +663,9 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_atf_input_variableStub.UpdateResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.UpdateResponse.class);
 
-            return (ServiceNow_atf_input_variableStub.UpdateResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.UpdateResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -728,11 +728,11 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_atf_input_variable#get
+     * @see org.curiosity.snowclient.client.ServiceNow_atf_input_variable#get
      * @param get
      */
-    public ServiceNow_atf_input_variableStub.GetResponse get(
-        ServiceNow_atf_input_variableStub.Get get)
+    public org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetResponse get(
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Get get)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -775,9 +775,9 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_atf_input_variableStub.GetResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetResponse.class);
 
-            return (ServiceNow_atf_input_variableStub.GetResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -840,11 +840,11 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_atf_input_variable#deleteMultiple
+     * @see org.curiosity.snowclient.client.ServiceNow_atf_input_variable#deleteMultiple
      * @param deleteMultiple
      */
-    public ServiceNow_atf_input_variableStub.DeleteMultipleResponse deleteMultiple(
-        ServiceNow_atf_input_variableStub.DeleteMultiple deleteMultiple)
+    public org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultipleResponse deleteMultiple(
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultiple deleteMultiple)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -888,9 +888,9 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_atf_input_variableStub.DeleteMultipleResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultipleResponse.class);
 
-            return (ServiceNow_atf_input_variableStub.DeleteMultipleResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultipleResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -965,10 +965,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.DeleteRecord param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecord param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.DeleteRecord.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecord.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -976,10 +976,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.DeleteRecordResponse param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecordResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.DeleteRecordResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecordResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -987,10 +987,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.GetKeys param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeys param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.GetKeys.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeys.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -998,10 +998,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.GetKeysResponse param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeysResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.GetKeysResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeysResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1009,10 +1009,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.GetRecords param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecords param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.GetRecords.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecords.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1020,10 +1020,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.GetRecordsResponse param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecordsResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.GetRecordsResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecordsResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1031,10 +1031,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.Insert param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Insert param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.Insert.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Insert.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1042,10 +1042,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.InsertResponse param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.InsertResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.InsertResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.InsertResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1053,10 +1053,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.Update param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Update param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.Update.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Update.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1064,10 +1064,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.UpdateResponse param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.UpdateResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.UpdateResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.UpdateResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1075,10 +1075,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.Get param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Get param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.Get.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Get.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1086,10 +1086,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.GetResponse param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.GetResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1097,10 +1097,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.DeleteMultiple param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultiple param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.DeleteMultiple.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultiple.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1108,10 +1108,10 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_atf_input_variableStub.DeleteMultipleResponse param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultipleResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_atf_input_variableStub.DeleteMultipleResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultipleResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1120,14 +1120,14 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
 
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_atf_input_variableStub.DeleteRecord param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecord param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_atf_input_variableStub.DeleteRecord.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecord.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1139,14 +1139,14 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_atf_input_variableStub.GetKeys param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeys param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_atf_input_variableStub.GetKeys.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeys.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1158,14 +1158,14 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_atf_input_variableStub.GetRecords param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecords param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_atf_input_variableStub.GetRecords.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecords.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1177,14 +1177,14 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_atf_input_variableStub.Insert param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Insert param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_atf_input_variableStub.Insert.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Insert.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1196,14 +1196,14 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_atf_input_variableStub.Update param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Update param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_atf_input_variableStub.Update.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Update.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1215,14 +1215,14 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_atf_input_variableStub.Get param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Get param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_atf_input_variableStub.Get.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Get.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1234,14 +1234,14 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_atf_input_variableStub.DeleteMultiple param,
+        org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultiple param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_atf_input_variableStub.DeleteMultiple.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultiple.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1263,74 +1263,74 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
     private java.lang.Object fromOM(org.apache.axiom.om.OMElement param,
         java.lang.Class type) throws org.apache.axis2.AxisFault {
         try {
-            if (ServiceNow_atf_input_variableStub.DeleteMultiple.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultiple.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.DeleteMultiple.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultiple.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.DeleteMultipleResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultipleResponse.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.DeleteMultipleResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteMultipleResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.DeleteRecord.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecord.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.DeleteRecord.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecord.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.DeleteRecordResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecordResponse.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.DeleteRecordResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.DeleteRecordResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.Get.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Get.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.Get.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Get.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.GetKeys.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeys.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.GetKeys.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeys.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.GetKeysResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeysResponse.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.GetKeysResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetKeysResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.GetRecords.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecords.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.GetRecords.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecords.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.GetRecordsResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecordsResponse.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.GetRecordsResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetRecordsResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.GetResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetResponse.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.GetResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.GetResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.Insert.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Insert.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.Insert.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Insert.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.InsertResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.InsertResponse.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.InsertResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.InsertResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.Update.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Update.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.Update.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.Update.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_atf_input_variableStub.UpdateResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.UpdateResponse.class.equals(
                         type)) {
-                return ServiceNow_atf_input_variableStub.UpdateResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_atf_input_variableStub.UpdateResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
         } catch (java.lang.Exception e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1339,7 +1339,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
         return null;
     }
 
-    //https://dev75196.service-now.com/atf_input_variable.do?SOAP
+    //https://dev105646.service-now.com/atf_input_variable.do/?SOAP
     public static class DeleteMultiple implements org.apache.axis2.databinding.ADBBean {
         public static final javax.xml.namespace.QName MY_QNAME = new javax.xml.namespace.QName("http://www.service-now.com/atf_input_variable",
                 "deleteMultiple", "ns1");
@@ -3857,7 +3857,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -3872,7 +3872,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArrayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array", xmlWriter);
 
                 if (false) {
@@ -3887,7 +3887,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArray_denormalizedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array_denormalized",
                     xmlWriter);
 
@@ -3903,7 +3903,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAttributesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "attributes", xmlWriter);
 
                 if (localAttributes == null) {
@@ -3918,7 +3918,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAuditTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "audit", xmlWriter);
 
                 if (false) {
@@ -3933,7 +3933,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCalculationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "calculation", xmlWriter);
 
                 if (localCalculation == null) {
@@ -3948,7 +3948,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoiceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice", xmlWriter);
 
                 if (localChoice == null) {
@@ -3964,7 +3964,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_field", xmlWriter);
 
                 if (localChoice_field == null) {
@@ -3979,7 +3979,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_table", xmlWriter);
 
                 if (localChoice_table == null) {
@@ -3994,7 +3994,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localColumn_labelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "column_label", xmlWriter);
 
                 if (localColumn_label == null) {
@@ -4009,7 +4009,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCommentsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "comments", xmlWriter);
 
                 if (localComments == null) {
@@ -4024,7 +4024,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCreate_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "create_roles", xmlWriter);
 
                 if (localCreate_roles == null) {
@@ -4039,7 +4039,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefault_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "default_value", xmlWriter);
 
                 if (localDefault_value == null) {
@@ -4054,7 +4054,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefaultsortTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "defaultsort", xmlWriter);
 
                 if (localDefaultsort == null) {
@@ -4070,7 +4070,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDelete_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "delete_roles", xmlWriter);
 
                 if (localDelete_roles == null) {
@@ -4085,7 +4085,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependentTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent", xmlWriter);
 
                 if (localDependent == null) {
@@ -4100,7 +4100,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependent_on_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent_on_field",
                     xmlWriter);
 
@@ -4116,7 +4116,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDisplayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "display", xmlWriter);
 
                 if (false) {
@@ -4131,7 +4131,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation", xmlWriter);
 
                 if (false) {
@@ -4146,7 +4146,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creation_scriptTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation_script",
                     xmlWriter);
 
@@ -4162,7 +4162,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_default_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_default_value",
                     xmlWriter);
 
@@ -4178,7 +4178,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_ref_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_ref_qual", xmlWriter);
 
                 if (localDynamic_ref_qual == null) {
@@ -4193,7 +4193,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element", xmlWriter);
 
                 if (localElement == null) {
@@ -4208,7 +4208,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElement_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element_reference",
                     xmlWriter);
 
@@ -4224,7 +4224,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localForeign_databaseTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "foreign_database", xmlWriter);
 
                 if (localForeign_database == null) {
@@ -4239,7 +4239,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_definitionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_definition",
                     xmlWriter);
 
@@ -4255,7 +4255,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_field", xmlWriter);
 
                 if (false) {
@@ -4270,7 +4270,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHelpTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "help", xmlWriter);
 
                 if (localHelp == null) {
@@ -4285,7 +4285,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHintTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "hint", xmlWriter);
 
                 if (localHint == null) {
@@ -4300,7 +4300,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localInternal_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "internal_type", xmlWriter);
 
                 if (localInternal_type == null) {
@@ -4315,7 +4315,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localLabelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "label", xmlWriter);
 
                 if (localLabel == null) {
@@ -4330,7 +4330,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMandatoryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "mandatory", xmlWriter);
 
                 if (false) {
@@ -4345,7 +4345,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMax_lengthTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "max_length", xmlWriter);
 
                 if (localMax_length == null) {
@@ -4361,7 +4361,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model", xmlWriter);
 
                 if (localModel == null) {
@@ -4376,7 +4376,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_id", xmlWriter);
 
                 if (localModel_id == null) {
@@ -4391,7 +4391,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_table", xmlWriter);
 
                 if (localModel_table == null) {
@@ -4406,7 +4406,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localNameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "name", xmlWriter);
 
                 if (localName == null) {
@@ -4421,7 +4421,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localNext_elementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "next_element", xmlWriter);
 
                 if (localNext_element == null) {
@@ -4436,7 +4436,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -4452,7 +4452,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localPrimaryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "primary", xmlWriter);
 
                 if (false) {
@@ -4467,7 +4467,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_onlyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_only", xmlWriter);
 
                 if (false) {
@@ -4482,7 +4482,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_roles", xmlWriter);
 
                 if (localRead_roles == null) {
@@ -4497,7 +4497,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReferenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference", xmlWriter);
 
                 if (localReference == null) {
@@ -4512,7 +4512,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_cascade_ruleTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_cascade_rule",
                     xmlWriter);
 
@@ -4528,7 +4528,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_floatsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_floats", xmlWriter);
 
                 if (false) {
@@ -4543,7 +4543,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_keyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_key", xmlWriter);
 
                 if (localReference_key == null) {
@@ -4558,7 +4558,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual", xmlWriter);
 
                 if (localReference_qual == null) {
@@ -4573,7 +4573,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qual_conditionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual_condition",
                     xmlWriter);
 
@@ -4589,7 +4589,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_type", xmlWriter);
 
                 if (localReference_type == null) {
@@ -4604,7 +4604,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSizeclassTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sizeclass", xmlWriter);
 
                 if (localSizeclass == null) {
@@ -4620,7 +4620,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSpell_checkTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "spell_check", xmlWriter);
 
                 if (false) {
@@ -4635,7 +4635,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localStagedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "staged", xmlWriter);
 
                 if (false) {
@@ -4650,7 +4650,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -4665,7 +4665,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -4680,7 +4680,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -4695,7 +4695,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -4710,7 +4710,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -4726,7 +4726,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_name", xmlWriter);
 
                 if (localSys_name == null) {
@@ -4741,7 +4741,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_packageTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_package", xmlWriter);
 
                 if (localSys_package == null) {
@@ -4756,7 +4756,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_policyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_policy", xmlWriter);
 
                 if (localSys_policy == null) {
@@ -4771,7 +4771,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_scopeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_scope", xmlWriter);
 
                 if (localSys_scope == null) {
@@ -4786,7 +4786,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_update_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_update_name", xmlWriter);
 
                 if (localSys_update_name == null) {
@@ -4801,7 +4801,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -4816,7 +4816,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -4831,7 +4831,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localTable_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "table_reference", xmlWriter);
 
                 if (false) {
@@ -4846,7 +4846,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localText_indexTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "text_index", xmlWriter);
 
                 if (false) {
@@ -4861,7 +4861,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUniqueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "unique", xmlWriter);
 
                 if (false) {
@@ -4876,7 +4876,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dependent_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dependent_field",
                     xmlWriter);
 
@@ -4892,7 +4892,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dynamic_defaultTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dynamic_default",
                     xmlWriter);
 
@@ -4908,7 +4908,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_reference_qualifierTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_reference_qualifier",
                     xmlWriter);
 
@@ -4924,7 +4924,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localVirtualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "virtual", xmlWriter);
 
                 if (false) {
@@ -4939,7 +4939,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWidgetTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "widget", xmlWriter);
 
                 if (localWidget == null) {
@@ -4954,7 +4954,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWrite_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "write_roles", xmlWriter);
 
                 if (localWrite_roles == null) {
@@ -4969,7 +4969,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localXml_viewTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "xml_view", xmlWriter);
 
                 if (false) {
@@ -5263,9 +5263,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5291,9 +5290,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "array").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "array").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5318,8 +5316,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "array_denormalized").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -5346,9 +5343,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "attributes").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "attributes").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5374,9 +5370,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "audit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "audit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5401,9 +5396,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "calculation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "calculation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5429,9 +5423,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5457,9 +5450,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5485,9 +5477,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5513,9 +5504,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "column_label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "column_label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5541,9 +5531,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "comments").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "comments").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5569,9 +5558,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "create_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "create_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5597,9 +5585,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "default_value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "default_value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5625,9 +5612,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "defaultsort").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "defaultsort").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5653,9 +5639,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "delete_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "delete_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5681,9 +5666,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dependent").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dependent").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5709,8 +5693,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dependent_on_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -5737,9 +5720,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "display").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "display").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5765,9 +5747,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_creation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_creation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5793,8 +5774,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_creation_script").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -5822,8 +5802,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_default_value").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -5851,9 +5830,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_ref_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_ref_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5879,9 +5857,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5907,8 +5884,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "element_reference").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -5935,9 +5911,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "foreign_database").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "foreign_database").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5963,8 +5938,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "function_definition").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -5991,9 +5965,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "function_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "function_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6019,9 +5992,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "help").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "help").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6046,9 +6018,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "hint").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "hint").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6073,9 +6044,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "internal_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "internal_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6101,9 +6071,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6128,9 +6097,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "mandatory").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "mandatory").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6156,9 +6124,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "max_length").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "max_length").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6184,9 +6151,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6211,9 +6177,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6239,9 +6204,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6267,9 +6231,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6294,9 +6257,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "next_element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "next_element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6322,9 +6284,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6349,9 +6310,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "primary").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "primary").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6377,9 +6337,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_only").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_only").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6405,9 +6364,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6433,9 +6391,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6461,8 +6418,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_cascade_rule").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -6490,9 +6446,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_floats").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_floats").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6518,9 +6473,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6546,9 +6500,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6574,8 +6527,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_qual_condition").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -6603,9 +6555,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6631,9 +6582,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sizeclass").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sizeclass").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6659,9 +6609,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "spell_check").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "spell_check").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6687,9 +6636,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "staged").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "staged").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6715,9 +6663,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6743,9 +6690,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6771,9 +6717,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6799,9 +6744,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6827,9 +6771,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6855,9 +6798,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6883,9 +6825,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_package").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_package").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6911,9 +6852,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_policy").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_policy").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6939,9 +6879,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_scope").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_scope").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6967,9 +6906,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_update_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_update_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6995,9 +6933,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -7023,9 +6960,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -7051,9 +6987,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "table_reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "table_reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -7079,9 +7014,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "text_index").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "text_index").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -7107,9 +7041,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "unique").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "unique").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -7135,8 +7068,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dependent_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -7163,8 +7095,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dynamic_default").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -7191,8 +7122,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_reference_qualifier").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -7220,9 +7150,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "virtual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "virtual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -7248,9 +7177,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "widget").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "widget").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -7276,9 +7204,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "write_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "write_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -7304,9 +7231,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "xml_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "xml_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -9880,7 +9806,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -9895,7 +9821,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArrayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array", xmlWriter);
 
                 if (false) {
@@ -9910,7 +9836,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArray_denormalizedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array_denormalized",
                     xmlWriter);
 
@@ -9926,7 +9852,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAttributesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "attributes", xmlWriter);
 
                 if (localAttributes == null) {
@@ -9941,7 +9867,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAuditTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "audit", xmlWriter);
 
                 if (false) {
@@ -9956,7 +9882,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCalculationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "calculation", xmlWriter);
 
                 if (localCalculation == null) {
@@ -9971,7 +9897,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoiceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice", xmlWriter);
 
                 if (localChoice == null) {
@@ -9987,7 +9913,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_field", xmlWriter);
 
                 if (localChoice_field == null) {
@@ -10002,7 +9928,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_table", xmlWriter);
 
                 if (localChoice_table == null) {
@@ -10017,7 +9943,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localColumn_labelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "column_label", xmlWriter);
 
                 if (localColumn_label == null) {
@@ -10032,7 +9958,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCommentsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "comments", xmlWriter);
 
                 if (localComments == null) {
@@ -10047,7 +9973,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCreate_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "create_roles", xmlWriter);
 
                 if (localCreate_roles == null) {
@@ -10062,7 +9988,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefault_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "default_value", xmlWriter);
 
                 if (localDefault_value == null) {
@@ -10077,7 +10003,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefaultsortTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "defaultsort", xmlWriter);
 
                 if (localDefaultsort == null) {
@@ -10093,7 +10019,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDelete_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "delete_roles", xmlWriter);
 
                 if (localDelete_roles == null) {
@@ -10108,7 +10034,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependentTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent", xmlWriter);
 
                 if (localDependent == null) {
@@ -10123,7 +10049,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependent_on_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent_on_field",
                     xmlWriter);
 
@@ -10139,7 +10065,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDisplayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "display", xmlWriter);
 
                 if (false) {
@@ -10154,7 +10080,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation", xmlWriter);
 
                 if (false) {
@@ -10169,7 +10095,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creation_scriptTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation_script",
                     xmlWriter);
 
@@ -10185,7 +10111,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_default_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_default_value",
                     xmlWriter);
 
@@ -10201,7 +10127,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_ref_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_ref_qual", xmlWriter);
 
                 if (localDynamic_ref_qual == null) {
@@ -10216,7 +10142,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element", xmlWriter);
 
                 if (localElement == null) {
@@ -10231,7 +10157,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElement_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element_reference",
                     xmlWriter);
 
@@ -10247,7 +10173,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localForeign_databaseTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "foreign_database", xmlWriter);
 
                 if (localForeign_database == null) {
@@ -10262,7 +10188,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_definitionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_definition",
                     xmlWriter);
 
@@ -10278,7 +10204,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_field", xmlWriter);
 
                 if (false) {
@@ -10293,7 +10219,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHelpTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "help", xmlWriter);
 
                 if (localHelp == null) {
@@ -10308,7 +10234,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHintTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "hint", xmlWriter);
 
                 if (localHint == null) {
@@ -10323,7 +10249,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localInternal_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "internal_type", xmlWriter);
 
                 if (localInternal_type == null) {
@@ -10338,7 +10264,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localLabelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "label", xmlWriter);
 
                 if (localLabel == null) {
@@ -10353,7 +10279,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMandatoryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "mandatory", xmlWriter);
 
                 if (false) {
@@ -10368,7 +10294,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMax_lengthTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "max_length", xmlWriter);
 
                 if (localMax_length == null) {
@@ -10384,7 +10310,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model", xmlWriter);
 
                 if (localModel == null) {
@@ -10399,7 +10325,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_id", xmlWriter);
 
                 if (localModel_id == null) {
@@ -10414,7 +10340,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_table", xmlWriter);
 
                 if (localModel_table == null) {
@@ -10429,7 +10355,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localNameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "name", xmlWriter);
 
                 if (localName == null) {
@@ -10444,7 +10370,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localNext_elementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "next_element", xmlWriter);
 
                 if (localNext_element == null) {
@@ -10459,7 +10385,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -10475,7 +10401,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localPrimaryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "primary", xmlWriter);
 
                 if (false) {
@@ -10490,7 +10416,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_onlyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_only", xmlWriter);
 
                 if (false) {
@@ -10505,7 +10431,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_roles", xmlWriter);
 
                 if (localRead_roles == null) {
@@ -10520,7 +10446,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReferenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference", xmlWriter);
 
                 if (localReference == null) {
@@ -10535,7 +10461,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_cascade_ruleTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_cascade_rule",
                     xmlWriter);
 
@@ -10551,7 +10477,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_floatsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_floats", xmlWriter);
 
                 if (false) {
@@ -10566,7 +10492,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_keyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_key", xmlWriter);
 
                 if (localReference_key == null) {
@@ -10581,7 +10507,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual", xmlWriter);
 
                 if (localReference_qual == null) {
@@ -10596,7 +10522,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qual_conditionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual_condition",
                     xmlWriter);
 
@@ -10612,7 +10538,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_type", xmlWriter);
 
                 if (localReference_type == null) {
@@ -10627,7 +10553,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSizeclassTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sizeclass", xmlWriter);
 
                 if (localSizeclass == null) {
@@ -10643,7 +10569,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSpell_checkTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "spell_check", xmlWriter);
 
                 if (false) {
@@ -10658,7 +10584,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localStagedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "staged", xmlWriter);
 
                 if (false) {
@@ -10673,7 +10599,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -10688,7 +10614,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -10703,7 +10629,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -10718,7 +10644,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -10733,7 +10659,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -10749,7 +10675,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_name", xmlWriter);
 
                 if (localSys_name == null) {
@@ -10764,7 +10690,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_packageTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_package", xmlWriter);
 
                 if (localSys_package == null) {
@@ -10779,7 +10705,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_policyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_policy", xmlWriter);
 
                 if (localSys_policy == null) {
@@ -10794,7 +10720,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_scopeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_scope", xmlWriter);
 
                 if (localSys_scope == null) {
@@ -10809,7 +10735,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_update_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_update_name", xmlWriter);
 
                 if (localSys_update_name == null) {
@@ -10824,7 +10750,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -10839,7 +10765,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -10854,7 +10780,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localTable_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "table_reference", xmlWriter);
 
                 if (false) {
@@ -10869,7 +10795,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localText_indexTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "text_index", xmlWriter);
 
                 if (false) {
@@ -10884,7 +10810,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUniqueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "unique", xmlWriter);
 
                 if (false) {
@@ -10899,7 +10825,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dependent_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dependent_field",
                     xmlWriter);
 
@@ -10915,7 +10841,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dynamic_defaultTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dynamic_default",
                     xmlWriter);
 
@@ -10931,7 +10857,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_reference_qualifierTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_reference_qualifier",
                     xmlWriter);
 
@@ -10947,7 +10873,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localVirtualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "virtual", xmlWriter);
 
                 if (false) {
@@ -10962,7 +10888,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWidgetTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "widget", xmlWriter);
 
                 if (localWidget == null) {
@@ -10977,7 +10903,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWrite_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "write_roles", xmlWriter);
 
                 if (localWrite_roles == null) {
@@ -10992,7 +10918,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localXml_viewTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "xml_view", xmlWriter);
 
                 if (false) {
@@ -11286,9 +11212,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11314,9 +11239,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "array").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "array").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11341,8 +11265,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "array_denormalized").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -11369,9 +11292,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "attributes").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "attributes").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11397,9 +11319,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "audit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "audit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11424,9 +11345,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "calculation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "calculation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11452,9 +11372,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11480,9 +11399,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11508,9 +11426,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11536,9 +11453,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "column_label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "column_label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11564,9 +11480,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "comments").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "comments").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11592,9 +11507,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "create_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "create_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11620,9 +11534,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "default_value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "default_value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11648,9 +11561,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "defaultsort").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "defaultsort").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11676,9 +11588,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "delete_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "delete_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11704,9 +11615,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dependent").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dependent").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11732,8 +11642,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dependent_on_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -11760,9 +11669,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "display").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "display").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11788,9 +11696,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_creation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_creation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11816,8 +11723,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_creation_script").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -11845,8 +11751,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_default_value").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -11874,9 +11779,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_ref_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_ref_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11902,9 +11806,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11930,8 +11833,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "element_reference").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -11958,9 +11860,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "foreign_database").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "foreign_database").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11986,8 +11887,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "function_definition").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -12014,9 +11914,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "function_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "function_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12042,9 +11941,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "help").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "help").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12069,9 +11967,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "hint").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "hint").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12096,9 +11993,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "internal_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "internal_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12124,9 +12020,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12151,9 +12046,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "mandatory").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "mandatory").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12179,9 +12073,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "max_length").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "max_length").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12207,9 +12100,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12234,9 +12126,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12262,9 +12153,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12290,9 +12180,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12317,9 +12206,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "next_element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "next_element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12345,9 +12233,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12372,9 +12259,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "primary").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "primary").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12400,9 +12286,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_only").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_only").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12428,9 +12313,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12456,9 +12340,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12484,8 +12367,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_cascade_rule").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -12513,9 +12395,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_floats").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_floats").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12541,9 +12422,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12569,9 +12449,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12597,8 +12476,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_qual_condition").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -12626,9 +12504,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12654,9 +12531,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sizeclass").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sizeclass").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12682,9 +12558,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "spell_check").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "spell_check").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12710,9 +12585,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "staged").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "staged").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12738,9 +12612,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12766,9 +12639,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12794,9 +12666,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12822,9 +12693,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12850,9 +12720,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12878,9 +12747,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12906,9 +12774,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_package").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_package").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12934,9 +12801,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_policy").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_policy").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12962,9 +12828,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_scope").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_scope").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12990,9 +12855,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_update_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_update_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13018,9 +12882,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13046,9 +12909,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13074,9 +12936,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "table_reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "table_reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13102,9 +12963,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "text_index").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "text_index").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13130,9 +12990,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "unique").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "unique").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13158,8 +13017,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dependent_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -13186,8 +13044,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dynamic_default").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -13214,8 +13071,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_reference_qualifier").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -13243,9 +13099,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "virtual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "virtual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13271,9 +13126,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "widget").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "widget").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13299,9 +13153,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "write_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "write_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13327,9 +13180,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "xml_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "xml_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13455,7 +13307,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCountTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "count", xmlWriter);
 
                 if (localCount == null) {
@@ -13749,9 +13601,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13896,7 +13747,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                 }
             }
 
-            namespace = "http://www.service-now.com/atf_input_variable";
+            namespace = "";
             writeStartElement(null, namespace, "sys_id", xmlWriter);
 
             if (localSys_id == null) {
@@ -13910,7 +13761,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             xmlWriter.writeEndElement();
 
             if (local__use_viewTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__use_view", xmlWriter);
 
                 if (local__use_view == null) {
@@ -14203,9 +14054,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -14234,9 +14084,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__use_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__use_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -14362,7 +14211,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCountTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "count", xmlWriter);
 
                 if (localCount == null) {
@@ -14656,9 +14505,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -14770,7 +14618,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                 }
             }
 
-            namespace = "http://www.service-now.com/atf_input_variable";
+            namespace = "";
             writeStartElement(null, namespace, "sys_id", xmlWriter);
 
             if (localSys_id == null) {
@@ -15063,9 +14911,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -17756,7 +17603,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -17771,7 +17618,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArrayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array", xmlWriter);
 
                 if (false) {
@@ -17786,7 +17633,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArray_denormalizedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array_denormalized",
                     xmlWriter);
 
@@ -17802,7 +17649,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAttributesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "attributes", xmlWriter);
 
                 if (localAttributes == null) {
@@ -17817,7 +17664,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAuditTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "audit", xmlWriter);
 
                 if (false) {
@@ -17832,7 +17679,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCalculationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "calculation", xmlWriter);
 
                 if (localCalculation == null) {
@@ -17847,7 +17694,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoiceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice", xmlWriter);
 
                 if (localChoice == null) {
@@ -17863,7 +17710,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_field", xmlWriter);
 
                 if (localChoice_field == null) {
@@ -17878,7 +17725,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_table", xmlWriter);
 
                 if (localChoice_table == null) {
@@ -17893,7 +17740,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localColumn_labelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "column_label", xmlWriter);
 
                 if (localColumn_label == null) {
@@ -17908,7 +17755,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCommentsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "comments", xmlWriter);
 
                 if (localComments == null) {
@@ -17923,7 +17770,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCreate_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "create_roles", xmlWriter);
 
                 if (localCreate_roles == null) {
@@ -17938,7 +17785,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefault_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "default_value", xmlWriter);
 
                 if (localDefault_value == null) {
@@ -17953,7 +17800,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefaultsortTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "defaultsort", xmlWriter);
 
                 if (localDefaultsort == null) {
@@ -17969,7 +17816,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDelete_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "delete_roles", xmlWriter);
 
                 if (localDelete_roles == null) {
@@ -17984,7 +17831,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependentTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent", xmlWriter);
 
                 if (localDependent == null) {
@@ -17999,7 +17846,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependent_on_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent_on_field",
                     xmlWriter);
 
@@ -18015,7 +17862,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDisplayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "display", xmlWriter);
 
                 if (false) {
@@ -18030,7 +17877,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation", xmlWriter);
 
                 if (false) {
@@ -18045,7 +17892,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creation_scriptTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation_script",
                     xmlWriter);
 
@@ -18061,7 +17908,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_default_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_default_value",
                     xmlWriter);
 
@@ -18077,7 +17924,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_ref_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_ref_qual", xmlWriter);
 
                 if (localDynamic_ref_qual == null) {
@@ -18092,7 +17939,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element", xmlWriter);
 
                 if (localElement == null) {
@@ -18107,7 +17954,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElement_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element_reference",
                     xmlWriter);
 
@@ -18123,7 +17970,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localForeign_databaseTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "foreign_database", xmlWriter);
 
                 if (localForeign_database == null) {
@@ -18138,7 +17985,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_definitionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_definition",
                     xmlWriter);
 
@@ -18154,7 +18001,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_field", xmlWriter);
 
                 if (false) {
@@ -18169,7 +18016,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHelpTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "help", xmlWriter);
 
                 if (localHelp == null) {
@@ -18184,7 +18031,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHintTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "hint", xmlWriter);
 
                 if (localHint == null) {
@@ -18199,7 +18046,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localInternal_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "internal_type", xmlWriter);
 
                 if (localInternal_type == null) {
@@ -18214,7 +18061,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localLabelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "label", xmlWriter);
 
                 if (localLabel == null) {
@@ -18229,7 +18076,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMandatoryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "mandatory", xmlWriter);
 
                 if (false) {
@@ -18244,7 +18091,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMax_lengthTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "max_length", xmlWriter);
 
                 if (localMax_length == null) {
@@ -18260,7 +18107,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model", xmlWriter);
 
                 if (localModel == null) {
@@ -18275,7 +18122,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_id", xmlWriter);
 
                 if (localModel_id == null) {
@@ -18290,7 +18137,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_table", xmlWriter);
 
                 if (localModel_table == null) {
@@ -18305,7 +18152,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localNameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "name", xmlWriter);
 
                 if (localName == null) {
@@ -18320,7 +18167,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localNext_elementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "next_element", xmlWriter);
 
                 if (localNext_element == null) {
@@ -18335,7 +18182,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -18351,7 +18198,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localPrimaryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "primary", xmlWriter);
 
                 if (false) {
@@ -18366,7 +18213,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_onlyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_only", xmlWriter);
 
                 if (false) {
@@ -18381,7 +18228,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_roles", xmlWriter);
 
                 if (localRead_roles == null) {
@@ -18396,7 +18243,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReferenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference", xmlWriter);
 
                 if (localReference == null) {
@@ -18411,7 +18258,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_cascade_ruleTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_cascade_rule",
                     xmlWriter);
 
@@ -18427,7 +18274,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_floatsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_floats", xmlWriter);
 
                 if (false) {
@@ -18442,7 +18289,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_keyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_key", xmlWriter);
 
                 if (localReference_key == null) {
@@ -18457,7 +18304,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual", xmlWriter);
 
                 if (localReference_qual == null) {
@@ -18472,7 +18319,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qual_conditionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual_condition",
                     xmlWriter);
 
@@ -18488,7 +18335,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_type", xmlWriter);
 
                 if (localReference_type == null) {
@@ -18503,7 +18350,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSizeclassTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sizeclass", xmlWriter);
 
                 if (localSizeclass == null) {
@@ -18519,7 +18366,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSpell_checkTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "spell_check", xmlWriter);
 
                 if (false) {
@@ -18534,7 +18381,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localStagedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "staged", xmlWriter);
 
                 if (false) {
@@ -18549,7 +18396,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -18564,7 +18411,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -18579,7 +18426,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -18594,7 +18441,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -18610,7 +18457,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_name", xmlWriter);
 
                 if (localSys_name == null) {
@@ -18625,7 +18472,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_packageTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_package", xmlWriter);
 
                 if (localSys_package == null) {
@@ -18640,7 +18487,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_policyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_policy", xmlWriter);
 
                 if (localSys_policy == null) {
@@ -18655,7 +18502,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_scopeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_scope", xmlWriter);
 
                 if (localSys_scope == null) {
@@ -18670,7 +18517,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_update_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_update_name", xmlWriter);
 
                 if (localSys_update_name == null) {
@@ -18685,7 +18532,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -18700,7 +18547,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -18715,7 +18562,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localTable_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "table_reference", xmlWriter);
 
                 if (false) {
@@ -18730,7 +18577,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localText_indexTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "text_index", xmlWriter);
 
                 if (false) {
@@ -18745,7 +18592,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUniqueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "unique", xmlWriter);
 
                 if (false) {
@@ -18760,7 +18607,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dependent_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dependent_field",
                     xmlWriter);
 
@@ -18776,7 +18623,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dynamic_defaultTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dynamic_default",
                     xmlWriter);
 
@@ -18792,7 +18639,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_reference_qualifierTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_reference_qualifier",
                     xmlWriter);
 
@@ -18808,7 +18655,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localVirtualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "virtual", xmlWriter);
 
                 if (false) {
@@ -18823,7 +18670,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWidgetTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "widget", xmlWriter);
 
                 if (localWidget == null) {
@@ -18838,7 +18685,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWrite_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "write_roles", xmlWriter);
 
                 if (localWrite_roles == null) {
@@ -18853,7 +18700,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localXml_viewTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "xml_view", xmlWriter);
 
                 if (false) {
@@ -18868,7 +18715,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__use_viewTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__use_view", xmlWriter);
 
                 if (local__use_view == null) {
@@ -18883,7 +18730,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__encoded_queryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__encoded_query", xmlWriter);
 
                 if (local__encoded_query == null) {
@@ -18898,7 +18745,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__limitTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__limit", xmlWriter);
 
                 if (local__limit == null) {
@@ -18913,7 +18760,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__first_rowTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__first_row", xmlWriter);
 
                 if (local__first_row == null) {
@@ -18928,7 +18775,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__last_rowTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__last_row", xmlWriter);
 
                 if (local__last_row == null) {
@@ -19221,9 +19068,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19249,9 +19095,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "array").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "array").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19276,8 +19121,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "array_denormalized").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -19304,9 +19148,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "attributes").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "attributes").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19332,9 +19175,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "audit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "audit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19359,9 +19201,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "calculation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "calculation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19387,9 +19228,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19415,9 +19255,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19443,9 +19282,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19471,9 +19309,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "column_label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "column_label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19499,9 +19336,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "comments").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "comments").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19527,9 +19363,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "create_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "create_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19555,9 +19390,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "default_value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "default_value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19583,9 +19417,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "defaultsort").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "defaultsort").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19611,9 +19444,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "delete_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "delete_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19639,9 +19471,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dependent").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dependent").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19667,8 +19498,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dependent_on_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -19695,9 +19525,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "display").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "display").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19723,9 +19552,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_creation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_creation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19751,8 +19579,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_creation_script").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -19780,8 +19607,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_default_value").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -19809,9 +19635,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_ref_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_ref_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19837,9 +19662,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19865,8 +19689,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "element_reference").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -19893,9 +19716,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "foreign_database").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "foreign_database").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19921,8 +19743,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "function_definition").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -19949,9 +19770,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "function_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "function_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -19977,9 +19797,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "help").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "help").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20004,9 +19823,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "hint").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "hint").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20031,9 +19849,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "internal_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "internal_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20059,9 +19876,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20086,9 +19902,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "mandatory").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "mandatory").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20114,9 +19929,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "max_length").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "max_length").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20142,9 +19956,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20169,9 +19982,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20197,9 +20009,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20225,9 +20036,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20252,9 +20062,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "next_element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "next_element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20280,9 +20089,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20307,9 +20115,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "primary").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "primary").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20335,9 +20142,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_only").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_only").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20363,9 +20169,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20391,9 +20196,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20419,8 +20223,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_cascade_rule").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -20448,9 +20251,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_floats").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_floats").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20476,9 +20278,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20504,9 +20305,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20532,8 +20332,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_qual_condition").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -20561,9 +20360,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20589,9 +20387,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sizeclass").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sizeclass").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20617,9 +20414,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "spell_check").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "spell_check").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20645,9 +20441,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "staged").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "staged").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20673,9 +20468,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20701,9 +20495,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20729,9 +20522,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20757,9 +20549,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20785,9 +20576,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20813,9 +20603,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_package").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_package").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20841,9 +20630,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_policy").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_policy").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20869,9 +20657,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_scope").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_scope").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20897,9 +20684,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_update_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_update_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20925,9 +20711,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20953,9 +20738,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -20981,9 +20765,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "table_reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "table_reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21009,9 +20792,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "text_index").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "text_index").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21037,9 +20819,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "unique").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "unique").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21065,8 +20846,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dependent_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -21093,8 +20873,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dynamic_default").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -21121,8 +20900,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_reference_qualifier").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -21150,9 +20928,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "virtual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "virtual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21178,9 +20955,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "widget").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "widget").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21206,9 +20982,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "write_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "write_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21234,9 +21009,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "xml_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "xml_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21262,9 +21036,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__use_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__use_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21290,9 +21063,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__encoded_query").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__encoded_query").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21318,9 +21090,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__limit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__limit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21346,9 +21117,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__first_row").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__first_row").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21374,9 +21144,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__last_row").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__last_row").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21502,7 +21271,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -21796,9 +21565,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -21984,7 +21752,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
 
             if (localSys_idTracker) {
                 if (localSys_id != null) {
-                    namespace = "http://www.service-now.com/atf_input_variable";
+                    namespace = "";
 
                     for (int i = 0; i < localSys_id.length; i++) {
                         if (localSys_id[i] != null) {
@@ -22006,7 +21774,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCountTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "count", xmlWriter);
 
                 if (localCount == null) {
@@ -22302,9 +22070,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         // Process the array and step past its final element's end.
                         list1.add(reader.getElementText());
 
@@ -22329,9 +22096,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                                 //two continuous end elements means we are exiting the xml structure
                                 loopDone1 = true;
                             } else {
-                                if (new javax.xml.namespace.QName(
-                                            "http://www.service-now.com/atf_input_variable",
-                                            "sys_id").equals(reader.getName())) {
+                                if (new javax.xml.namespace.QName("", "sys_id").equals(
+                                            reader.getName())) {
                                     list1.add(reader.getElementText());
                                 } else {
                                     loopDone1 = true;
@@ -22351,9 +22117,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -24521,7 +24286,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -24536,7 +24301,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArrayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array", xmlWriter);
 
                 if (false) {
@@ -24551,7 +24316,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArray_denormalizedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array_denormalized",
                     xmlWriter);
 
@@ -24567,7 +24332,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAttributesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "attributes", xmlWriter);
 
                 if (localAttributes == null) {
@@ -24582,7 +24347,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAuditTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "audit", xmlWriter);
 
                 if (false) {
@@ -24597,7 +24362,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCalculationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "calculation", xmlWriter);
 
                 if (localCalculation == null) {
@@ -24612,7 +24377,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoiceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice", xmlWriter);
 
                 if (localChoice == null) {
@@ -24628,7 +24393,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_field", xmlWriter);
 
                 if (localChoice_field == null) {
@@ -24643,7 +24408,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_table", xmlWriter);
 
                 if (localChoice_table == null) {
@@ -24658,7 +24423,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localColumn_labelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "column_label", xmlWriter);
 
                 if (localColumn_label == null) {
@@ -24673,7 +24438,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCommentsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "comments", xmlWriter);
 
                 if (localComments == null) {
@@ -24688,7 +24453,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCreate_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "create_roles", xmlWriter);
 
                 if (localCreate_roles == null) {
@@ -24703,7 +24468,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefault_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "default_value", xmlWriter);
 
                 if (localDefault_value == null) {
@@ -24718,7 +24483,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefaultsortTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "defaultsort", xmlWriter);
 
                 if (localDefaultsort == null) {
@@ -24734,7 +24499,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDelete_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "delete_roles", xmlWriter);
 
                 if (localDelete_roles == null) {
@@ -24749,7 +24514,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependentTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent", xmlWriter);
 
                 if (localDependent == null) {
@@ -24764,7 +24529,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependent_on_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent_on_field",
                     xmlWriter);
 
@@ -24780,7 +24545,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDisplayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "display", xmlWriter);
 
                 if (false) {
@@ -24795,7 +24560,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation", xmlWriter);
 
                 if (false) {
@@ -24810,7 +24575,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creation_scriptTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation_script",
                     xmlWriter);
 
@@ -24826,7 +24591,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_default_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_default_value",
                     xmlWriter);
 
@@ -24842,7 +24607,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_ref_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_ref_qual", xmlWriter);
 
                 if (localDynamic_ref_qual == null) {
@@ -24857,7 +24622,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element", xmlWriter);
 
                 if (localElement == null) {
@@ -24872,7 +24637,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElement_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element_reference",
                     xmlWriter);
 
@@ -24888,7 +24653,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localForeign_databaseTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "foreign_database", xmlWriter);
 
                 if (localForeign_database == null) {
@@ -24903,7 +24668,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_definitionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_definition",
                     xmlWriter);
 
@@ -24919,7 +24684,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_field", xmlWriter);
 
                 if (false) {
@@ -24934,7 +24699,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHelpTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "help", xmlWriter);
 
                 if (localHelp == null) {
@@ -24949,7 +24714,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHintTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "hint", xmlWriter);
 
                 if (localHint == null) {
@@ -24964,7 +24729,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localInternal_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "internal_type", xmlWriter);
 
                 if (localInternal_type == null) {
@@ -24979,7 +24744,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localLabelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "label", xmlWriter);
 
                 if (localLabel == null) {
@@ -24994,7 +24759,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMandatoryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "mandatory", xmlWriter);
 
                 if (false) {
@@ -25009,7 +24774,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMax_lengthTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "max_length", xmlWriter);
 
                 if (localMax_length == null) {
@@ -25025,7 +24790,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model", xmlWriter);
 
                 if (localModel == null) {
@@ -25040,7 +24805,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_id", xmlWriter);
 
                 if (localModel_id == null) {
@@ -25055,7 +24820,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_table", xmlWriter);
 
                 if (localModel_table == null) {
@@ -25069,7 +24834,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                 xmlWriter.writeEndElement();
             }
 
-            namespace = "http://www.service-now.com/atf_input_variable";
+            namespace = "";
             writeStartElement(null, namespace, "name", xmlWriter);
 
             if (localName == null) {
@@ -25083,7 +24848,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             xmlWriter.writeEndElement();
 
             if (localNext_elementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "next_element", xmlWriter);
 
                 if (localNext_element == null) {
@@ -25098,7 +24863,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -25114,7 +24879,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localPrimaryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "primary", xmlWriter);
 
                 if (false) {
@@ -25129,7 +24894,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_onlyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_only", xmlWriter);
 
                 if (false) {
@@ -25144,7 +24909,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_roles", xmlWriter);
 
                 if (localRead_roles == null) {
@@ -25159,7 +24924,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReferenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference", xmlWriter);
 
                 if (localReference == null) {
@@ -25174,7 +24939,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_cascade_ruleTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_cascade_rule",
                     xmlWriter);
 
@@ -25190,7 +24955,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_floatsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_floats", xmlWriter);
 
                 if (false) {
@@ -25205,7 +24970,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_keyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_key", xmlWriter);
 
                 if (localReference_key == null) {
@@ -25220,7 +24985,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual", xmlWriter);
 
                 if (localReference_qual == null) {
@@ -25235,7 +25000,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qual_conditionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual_condition",
                     xmlWriter);
 
@@ -25251,7 +25016,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_type", xmlWriter);
 
                 if (localReference_type == null) {
@@ -25266,7 +25031,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSizeclassTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sizeclass", xmlWriter);
 
                 if (localSizeclass == null) {
@@ -25282,7 +25047,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSpell_checkTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "spell_check", xmlWriter);
 
                 if (false) {
@@ -25297,7 +25062,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localStagedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "staged", xmlWriter);
 
                 if (false) {
@@ -25311,7 +25076,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                 xmlWriter.writeEndElement();
             }
 
-            namespace = "http://www.service-now.com/atf_input_variable";
+            namespace = "";
             writeStartElement(null, namespace, "sys_id", xmlWriter);
 
             if (localSys_id == null) {
@@ -25325,7 +25090,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             xmlWriter.writeEndElement();
 
             if (localTable_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "table_reference", xmlWriter);
 
                 if (false) {
@@ -25340,7 +25105,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localText_indexTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "text_index", xmlWriter);
 
                 if (false) {
@@ -25355,7 +25120,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUniqueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "unique", xmlWriter);
 
                 if (false) {
@@ -25370,7 +25135,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dependent_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dependent_field",
                     xmlWriter);
 
@@ -25386,7 +25151,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dynamic_defaultTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dynamic_default",
                     xmlWriter);
 
@@ -25402,7 +25167,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_reference_qualifierTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_reference_qualifier",
                     xmlWriter);
 
@@ -25418,7 +25183,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localVirtualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "virtual", xmlWriter);
 
                 if (false) {
@@ -25433,7 +25198,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWidgetTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "widget", xmlWriter);
 
                 if (localWidget == null) {
@@ -25448,7 +25213,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWrite_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "write_roles", xmlWriter);
 
                 if (localWrite_roles == null) {
@@ -25463,7 +25228,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localXml_viewTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "xml_view", xmlWriter);
 
                 if (false) {
@@ -25756,9 +25521,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -25784,9 +25548,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "array").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "array").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -25811,8 +25574,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "array_denormalized").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -25839,9 +25601,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "attributes").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "attributes").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -25867,9 +25628,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "audit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "audit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -25894,9 +25654,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "calculation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "calculation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -25922,9 +25681,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -25950,9 +25708,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -25978,9 +25735,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26006,9 +25762,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "column_label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "column_label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26034,9 +25789,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "comments").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "comments").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26062,9 +25816,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "create_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "create_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26090,9 +25843,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "default_value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "default_value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26118,9 +25870,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "defaultsort").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "defaultsort").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26146,9 +25897,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "delete_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "delete_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26174,9 +25924,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dependent").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dependent").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26202,8 +25951,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dependent_on_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -26230,9 +25978,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "display").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "display").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26258,9 +26005,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_creation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_creation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26286,8 +26032,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_creation_script").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -26315,8 +26060,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_default_value").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -26344,9 +26088,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_ref_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_ref_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26372,9 +26115,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26400,8 +26142,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "element_reference").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -26428,9 +26169,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "foreign_database").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "foreign_database").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26456,8 +26196,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "function_definition").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -26484,9 +26223,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "function_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "function_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26512,9 +26250,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "help").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "help").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26539,9 +26276,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "hint").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "hint").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26566,9 +26302,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "internal_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "internal_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26594,9 +26329,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26621,9 +26355,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "mandatory").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "mandatory").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26649,9 +26382,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "max_length").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "max_length").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26677,9 +26409,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26704,9 +26435,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26732,9 +26462,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26760,9 +26489,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26790,9 +26518,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "next_element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "next_element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26818,9 +26545,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26845,9 +26571,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "primary").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "primary").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26873,9 +26598,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_only").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_only").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26901,9 +26625,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26929,9 +26652,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -26957,8 +26679,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_cascade_rule").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -26986,9 +26707,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_floats").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_floats").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27014,9 +26734,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27042,9 +26761,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27070,8 +26788,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_qual_condition").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -27099,9 +26816,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27127,9 +26843,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sizeclass").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sizeclass").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27155,9 +26870,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "spell_check").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "spell_check").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27183,9 +26897,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "staged").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "staged").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27211,9 +26924,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27242,9 +26954,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "table_reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "table_reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27270,9 +26981,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "text_index").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "text_index").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27298,9 +27008,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "unique").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "unique").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27326,8 +27035,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dependent_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -27354,8 +27062,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dynamic_default").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -27382,8 +27089,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_reference_qualifier").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -27411,9 +27117,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "virtual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "virtual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27439,9 +27144,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "widget").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "widget").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27467,9 +27171,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "write_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "write_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -27495,9 +27198,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "xml_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "xml_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -29645,7 +29347,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -29660,7 +29362,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArrayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array", xmlWriter);
 
                 if (false) {
@@ -29675,7 +29377,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArray_denormalizedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array_denormalized",
                     xmlWriter);
 
@@ -29691,7 +29393,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAttributesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "attributes", xmlWriter);
 
                 if (localAttributes == null) {
@@ -29706,7 +29408,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAuditTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "audit", xmlWriter);
 
                 if (false) {
@@ -29721,7 +29423,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCalculationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "calculation", xmlWriter);
 
                 if (localCalculation == null) {
@@ -29736,7 +29438,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoiceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice", xmlWriter);
 
                 if (localChoice == null) {
@@ -29752,7 +29454,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_field", xmlWriter);
 
                 if (localChoice_field == null) {
@@ -29767,7 +29469,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_table", xmlWriter);
 
                 if (localChoice_table == null) {
@@ -29782,7 +29484,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localColumn_labelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "column_label", xmlWriter);
 
                 if (localColumn_label == null) {
@@ -29797,7 +29499,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCommentsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "comments", xmlWriter);
 
                 if (localComments == null) {
@@ -29812,7 +29514,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCreate_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "create_roles", xmlWriter);
 
                 if (localCreate_roles == null) {
@@ -29827,7 +29529,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefault_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "default_value", xmlWriter);
 
                 if (localDefault_value == null) {
@@ -29842,7 +29544,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefaultsortTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "defaultsort", xmlWriter);
 
                 if (localDefaultsort == null) {
@@ -29858,7 +29560,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDelete_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "delete_roles", xmlWriter);
 
                 if (localDelete_roles == null) {
@@ -29873,7 +29575,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependentTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent", xmlWriter);
 
                 if (localDependent == null) {
@@ -29888,7 +29590,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependent_on_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent_on_field",
                     xmlWriter);
 
@@ -29904,7 +29606,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDisplayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "display", xmlWriter);
 
                 if (false) {
@@ -29919,7 +29621,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation", xmlWriter);
 
                 if (false) {
@@ -29934,7 +29636,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creation_scriptTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation_script",
                     xmlWriter);
 
@@ -29950,7 +29652,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_default_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_default_value",
                     xmlWriter);
 
@@ -29966,7 +29668,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_ref_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_ref_qual", xmlWriter);
 
                 if (localDynamic_ref_qual == null) {
@@ -29981,7 +29683,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element", xmlWriter);
 
                 if (localElement == null) {
@@ -29996,7 +29698,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElement_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element_reference",
                     xmlWriter);
 
@@ -30012,7 +29714,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localForeign_databaseTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "foreign_database", xmlWriter);
 
                 if (localForeign_database == null) {
@@ -30027,7 +29729,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_definitionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_definition",
                     xmlWriter);
 
@@ -30043,7 +29745,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_field", xmlWriter);
 
                 if (false) {
@@ -30058,7 +29760,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHelpTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "help", xmlWriter);
 
                 if (localHelp == null) {
@@ -30073,7 +29775,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHintTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "hint", xmlWriter);
 
                 if (localHint == null) {
@@ -30088,7 +29790,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localInternal_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "internal_type", xmlWriter);
 
                 if (localInternal_type == null) {
@@ -30103,7 +29805,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localLabelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "label", xmlWriter);
 
                 if (localLabel == null) {
@@ -30118,7 +29820,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMandatoryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "mandatory", xmlWriter);
 
                 if (false) {
@@ -30133,7 +29835,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMax_lengthTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "max_length", xmlWriter);
 
                 if (localMax_length == null) {
@@ -30149,7 +29851,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model", xmlWriter);
 
                 if (localModel == null) {
@@ -30164,7 +29866,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_id", xmlWriter);
 
                 if (localModel_id == null) {
@@ -30179,7 +29881,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_table", xmlWriter);
 
                 if (localModel_table == null) {
@@ -30193,7 +29895,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                 xmlWriter.writeEndElement();
             }
 
-            namespace = "http://www.service-now.com/atf_input_variable";
+            namespace = "";
             writeStartElement(null, namespace, "name", xmlWriter);
 
             if (localName == null) {
@@ -30207,7 +29909,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             xmlWriter.writeEndElement();
 
             if (localNext_elementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "next_element", xmlWriter);
 
                 if (localNext_element == null) {
@@ -30222,7 +29924,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -30238,7 +29940,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localPrimaryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "primary", xmlWriter);
 
                 if (false) {
@@ -30253,7 +29955,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_onlyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_only", xmlWriter);
 
                 if (false) {
@@ -30268,7 +29970,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_roles", xmlWriter);
 
                 if (localRead_roles == null) {
@@ -30283,7 +29985,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReferenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference", xmlWriter);
 
                 if (localReference == null) {
@@ -30298,7 +30000,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_cascade_ruleTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_cascade_rule",
                     xmlWriter);
 
@@ -30314,7 +30016,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_floatsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_floats", xmlWriter);
 
                 if (false) {
@@ -30329,7 +30031,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_keyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_key", xmlWriter);
 
                 if (localReference_key == null) {
@@ -30344,7 +30046,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual", xmlWriter);
 
                 if (localReference_qual == null) {
@@ -30359,7 +30061,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qual_conditionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual_condition",
                     xmlWriter);
 
@@ -30375,7 +30077,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_type", xmlWriter);
 
                 if (localReference_type == null) {
@@ -30390,7 +30092,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSizeclassTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sizeclass", xmlWriter);
 
                 if (localSizeclass == null) {
@@ -30406,7 +30108,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSpell_checkTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "spell_check", xmlWriter);
 
                 if (false) {
@@ -30421,7 +30123,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localStagedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "staged", xmlWriter);
 
                 if (false) {
@@ -30436,7 +30138,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localTable_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "table_reference", xmlWriter);
 
                 if (false) {
@@ -30451,7 +30153,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localText_indexTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "text_index", xmlWriter);
 
                 if (false) {
@@ -30466,7 +30168,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUniqueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "unique", xmlWriter);
 
                 if (false) {
@@ -30481,7 +30183,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dependent_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dependent_field",
                     xmlWriter);
 
@@ -30497,7 +30199,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dynamic_defaultTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dynamic_default",
                     xmlWriter);
 
@@ -30513,7 +30215,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_reference_qualifierTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_reference_qualifier",
                     xmlWriter);
 
@@ -30529,7 +30231,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localVirtualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "virtual", xmlWriter);
 
                 if (false) {
@@ -30544,7 +30246,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWidgetTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "widget", xmlWriter);
 
                 if (localWidget == null) {
@@ -30559,7 +30261,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWrite_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "write_roles", xmlWriter);
 
                 if (localWrite_roles == null) {
@@ -30574,7 +30276,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localXml_viewTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "xml_view", xmlWriter);
 
                 if (false) {
@@ -30867,9 +30569,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -30895,9 +30596,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "array").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "array").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -30922,8 +30622,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "array_denormalized").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -30950,9 +30649,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "attributes").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "attributes").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -30978,9 +30676,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "audit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "audit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31005,9 +30702,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "calculation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "calculation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31033,9 +30729,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31061,9 +30756,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31089,9 +30783,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31117,9 +30810,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "column_label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "column_label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31145,9 +30837,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "comments").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "comments").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31173,9 +30864,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "create_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "create_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31201,9 +30891,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "default_value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "default_value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31229,9 +30918,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "defaultsort").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "defaultsort").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31257,9 +30945,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "delete_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "delete_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31285,9 +30972,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dependent").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dependent").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31313,8 +30999,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dependent_on_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -31341,9 +31026,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "display").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "display").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31369,9 +31053,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_creation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_creation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31397,8 +31080,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_creation_script").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -31426,8 +31108,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_default_value").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -31455,9 +31136,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_ref_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_ref_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31483,9 +31163,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31511,8 +31190,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "element_reference").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -31539,9 +31217,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "foreign_database").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "foreign_database").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31567,8 +31244,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "function_definition").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -31595,9 +31271,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "function_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "function_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31623,9 +31298,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "help").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "help").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31650,9 +31324,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "hint").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "hint").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31677,9 +31350,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "internal_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "internal_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31705,9 +31377,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31732,9 +31403,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "mandatory").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "mandatory").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31760,9 +31430,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "max_length").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "max_length").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31788,9 +31457,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31815,9 +31483,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31843,9 +31510,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31871,9 +31537,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31901,9 +31566,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "next_element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "next_element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31929,9 +31593,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31956,9 +31619,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "primary").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "primary").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -31984,9 +31646,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_only").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_only").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32012,9 +31673,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32040,9 +31700,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32068,8 +31727,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_cascade_rule").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -32097,9 +31755,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_floats").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_floats").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32125,9 +31782,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32153,9 +31809,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32181,8 +31836,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_qual_condition").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -32210,9 +31864,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32238,9 +31891,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sizeclass").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sizeclass").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32266,9 +31918,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "spell_check").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "spell_check").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32294,9 +31945,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "staged").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "staged").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32322,9 +31972,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "table_reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "table_reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32350,9 +31999,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "text_index").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "text_index").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32378,9 +32026,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "unique").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "unique").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32406,8 +32053,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dependent_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -32434,8 +32080,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dynamic_default").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -32462,8 +32107,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_reference_qualifier").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -32491,9 +32135,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "virtual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "virtual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32519,9 +32162,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "widget").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "widget").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32547,9 +32189,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "write_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "write_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -32575,9 +32216,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "xml_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "xml_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -35133,7 +34773,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -35148,7 +34788,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArrayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array", xmlWriter);
 
                 if (false) {
@@ -35163,7 +34803,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArray_denormalizedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array_denormalized",
                     xmlWriter);
 
@@ -35179,7 +34819,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAttributesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "attributes", xmlWriter);
 
                 if (localAttributes == null) {
@@ -35194,7 +34834,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAuditTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "audit", xmlWriter);
 
                 if (false) {
@@ -35209,7 +34849,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCalculationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "calculation", xmlWriter);
 
                 if (localCalculation == null) {
@@ -35224,7 +34864,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoiceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice", xmlWriter);
 
                 if (localChoice == null) {
@@ -35240,7 +34880,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_field", xmlWriter);
 
                 if (localChoice_field == null) {
@@ -35255,7 +34895,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_table", xmlWriter);
 
                 if (localChoice_table == null) {
@@ -35270,7 +34910,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localColumn_labelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "column_label", xmlWriter);
 
                 if (localColumn_label == null) {
@@ -35285,7 +34925,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCommentsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "comments", xmlWriter);
 
                 if (localComments == null) {
@@ -35300,7 +34940,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCreate_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "create_roles", xmlWriter);
 
                 if (localCreate_roles == null) {
@@ -35315,7 +34955,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefault_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "default_value", xmlWriter);
 
                 if (localDefault_value == null) {
@@ -35330,7 +34970,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefaultsortTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "defaultsort", xmlWriter);
 
                 if (localDefaultsort == null) {
@@ -35346,7 +34986,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDelete_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "delete_roles", xmlWriter);
 
                 if (localDelete_roles == null) {
@@ -35361,7 +35001,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependentTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent", xmlWriter);
 
                 if (localDependent == null) {
@@ -35376,7 +35016,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependent_on_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent_on_field",
                     xmlWriter);
 
@@ -35392,7 +35032,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDisplayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "display", xmlWriter);
 
                 if (false) {
@@ -35407,7 +35047,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation", xmlWriter);
 
                 if (false) {
@@ -35422,7 +35062,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creation_scriptTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation_script",
                     xmlWriter);
 
@@ -35438,7 +35078,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_default_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_default_value",
                     xmlWriter);
 
@@ -35454,7 +35094,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_ref_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_ref_qual", xmlWriter);
 
                 if (localDynamic_ref_qual == null) {
@@ -35469,7 +35109,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element", xmlWriter);
 
                 if (localElement == null) {
@@ -35484,7 +35124,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElement_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element_reference",
                     xmlWriter);
 
@@ -35500,7 +35140,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localForeign_databaseTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "foreign_database", xmlWriter);
 
                 if (localForeign_database == null) {
@@ -35515,7 +35155,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_definitionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_definition",
                     xmlWriter);
 
@@ -35531,7 +35171,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_field", xmlWriter);
 
                 if (false) {
@@ -35546,7 +35186,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHelpTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "help", xmlWriter);
 
                 if (localHelp == null) {
@@ -35561,7 +35201,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHintTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "hint", xmlWriter);
 
                 if (localHint == null) {
@@ -35576,7 +35216,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localInternal_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "internal_type", xmlWriter);
 
                 if (localInternal_type == null) {
@@ -35591,7 +35231,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localLabelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "label", xmlWriter);
 
                 if (localLabel == null) {
@@ -35606,7 +35246,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMandatoryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "mandatory", xmlWriter);
 
                 if (false) {
@@ -35621,7 +35261,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMax_lengthTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "max_length", xmlWriter);
 
                 if (localMax_length == null) {
@@ -35637,7 +35277,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model", xmlWriter);
 
                 if (localModel == null) {
@@ -35652,7 +35292,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_id", xmlWriter);
 
                 if (localModel_id == null) {
@@ -35667,7 +35307,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_table", xmlWriter);
 
                 if (localModel_table == null) {
@@ -35682,7 +35322,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localNameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "name", xmlWriter);
 
                 if (localName == null) {
@@ -35697,7 +35337,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localNext_elementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "next_element", xmlWriter);
 
                 if (localNext_element == null) {
@@ -35712,7 +35352,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -35728,7 +35368,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localPrimaryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "primary", xmlWriter);
 
                 if (false) {
@@ -35743,7 +35383,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_onlyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_only", xmlWriter);
 
                 if (false) {
@@ -35758,7 +35398,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_roles", xmlWriter);
 
                 if (localRead_roles == null) {
@@ -35773,7 +35413,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReferenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference", xmlWriter);
 
                 if (localReference == null) {
@@ -35788,7 +35428,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_cascade_ruleTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_cascade_rule",
                     xmlWriter);
 
@@ -35804,7 +35444,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_floatsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_floats", xmlWriter);
 
                 if (false) {
@@ -35819,7 +35459,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_keyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_key", xmlWriter);
 
                 if (localReference_key == null) {
@@ -35834,7 +35474,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual", xmlWriter);
 
                 if (localReference_qual == null) {
@@ -35849,7 +35489,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qual_conditionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual_condition",
                     xmlWriter);
 
@@ -35865,7 +35505,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_type", xmlWriter);
 
                 if (localReference_type == null) {
@@ -35880,7 +35520,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSizeclassTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sizeclass", xmlWriter);
 
                 if (localSizeclass == null) {
@@ -35896,7 +35536,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSpell_checkTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "spell_check", xmlWriter);
 
                 if (false) {
@@ -35911,7 +35551,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localStagedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "staged", xmlWriter);
 
                 if (false) {
@@ -35926,7 +35566,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -35941,7 +35581,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -35956,7 +35596,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -35971,7 +35611,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -35986,7 +35626,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -36002,7 +35642,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_name", xmlWriter);
 
                 if (localSys_name == null) {
@@ -36017,7 +35657,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_packageTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_package", xmlWriter);
 
                 if (localSys_package == null) {
@@ -36032,7 +35672,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_policyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_policy", xmlWriter);
 
                 if (localSys_policy == null) {
@@ -36047,7 +35687,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_scopeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_scope", xmlWriter);
 
                 if (localSys_scope == null) {
@@ -36062,7 +35702,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_update_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_update_name", xmlWriter);
 
                 if (localSys_update_name == null) {
@@ -36077,7 +35717,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -36092,7 +35732,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -36107,7 +35747,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localTable_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "table_reference", xmlWriter);
 
                 if (false) {
@@ -36122,7 +35762,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localText_indexTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "text_index", xmlWriter);
 
                 if (false) {
@@ -36137,7 +35777,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUniqueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "unique", xmlWriter);
 
                 if (false) {
@@ -36152,7 +35792,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dependent_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dependent_field",
                     xmlWriter);
 
@@ -36168,7 +35808,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dynamic_defaultTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dynamic_default",
                     xmlWriter);
 
@@ -36184,7 +35824,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_reference_qualifierTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_reference_qualifier",
                     xmlWriter);
 
@@ -36200,7 +35840,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localVirtualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "virtual", xmlWriter);
 
                 if (false) {
@@ -36215,7 +35855,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWidgetTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "widget", xmlWriter);
 
                 if (localWidget == null) {
@@ -36230,7 +35870,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWrite_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "write_roles", xmlWriter);
 
                 if (localWrite_roles == null) {
@@ -36245,7 +35885,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localXml_viewTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "xml_view", xmlWriter);
 
                 if (false) {
@@ -36539,9 +36179,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36567,9 +36206,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "array").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "array").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36594,8 +36232,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "array_denormalized").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -36622,9 +36259,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "attributes").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "attributes").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36650,9 +36286,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "audit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "audit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36677,9 +36312,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "calculation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "calculation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36705,9 +36339,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36733,9 +36366,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36761,9 +36393,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36789,9 +36420,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "column_label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "column_label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36817,9 +36447,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "comments").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "comments").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36845,9 +36474,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "create_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "create_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36873,9 +36501,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "default_value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "default_value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36901,9 +36528,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "defaultsort").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "defaultsort").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36929,9 +36555,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "delete_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "delete_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36957,9 +36582,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dependent").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dependent").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -36985,8 +36609,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dependent_on_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -37013,9 +36636,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "display").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "display").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37041,9 +36663,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_creation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_creation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37069,8 +36690,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_creation_script").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -37098,8 +36718,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_default_value").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -37127,9 +36746,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_ref_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_ref_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37155,9 +36773,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37183,8 +36800,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "element_reference").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -37211,9 +36827,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "foreign_database").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "foreign_database").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37239,8 +36854,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "function_definition").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -37267,9 +36881,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "function_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "function_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37295,9 +36908,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "help").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "help").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37322,9 +36934,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "hint").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "hint").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37349,9 +36960,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "internal_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "internal_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37377,9 +36987,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37404,9 +37013,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "mandatory").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "mandatory").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37432,9 +37040,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "max_length").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "max_length").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37460,9 +37067,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37487,9 +37093,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37515,9 +37120,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37543,9 +37147,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37570,9 +37173,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "next_element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "next_element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37598,9 +37200,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37625,9 +37226,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "primary").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "primary").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37653,9 +37253,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_only").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_only").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37681,9 +37280,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37709,9 +37307,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37737,8 +37334,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_cascade_rule").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -37766,9 +37362,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_floats").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_floats").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37794,9 +37389,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37822,9 +37416,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37850,8 +37443,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_qual_condition").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -37879,9 +37471,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37907,9 +37498,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sizeclass").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sizeclass").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37935,9 +37525,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "spell_check").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "spell_check").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37963,9 +37552,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "staged").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "staged").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -37991,9 +37579,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38019,9 +37606,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38047,9 +37633,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38075,9 +37660,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38103,9 +37687,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38131,9 +37714,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38159,9 +37741,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_package").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_package").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38187,9 +37768,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_policy").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_policy").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38215,9 +37795,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_scope").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_scope").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38243,9 +37822,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_update_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_update_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38271,9 +37849,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38299,9 +37876,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38327,9 +37903,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "table_reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "table_reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38355,9 +37930,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "text_index").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "text_index").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38383,9 +37957,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "unique").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "unique").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38411,8 +37984,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dependent_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -38439,8 +38011,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dynamic_default").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -38467,8 +38038,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_reference_qualifier").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -38496,9 +38066,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "virtual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "virtual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38524,9 +38093,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "widget").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "widget").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38552,9 +38120,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "write_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "write_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -38580,9 +38147,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "xml_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "xml_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -41402,7 +40968,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -41417,7 +40983,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArrayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array", xmlWriter);
 
                 if (false) {
@@ -41432,7 +40998,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localArray_denormalizedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "array_denormalized",
                     xmlWriter);
 
@@ -41448,7 +41014,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAttributesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "attributes", xmlWriter);
 
                 if (localAttributes == null) {
@@ -41463,7 +41029,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localAuditTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "audit", xmlWriter);
 
                 if (false) {
@@ -41478,7 +41044,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCalculationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "calculation", xmlWriter);
 
                 if (localCalculation == null) {
@@ -41493,7 +41059,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoiceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice", xmlWriter);
 
                 if (localChoice == null) {
@@ -41509,7 +41075,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_field", xmlWriter);
 
                 if (localChoice_field == null) {
@@ -41524,7 +41090,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localChoice_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "choice_table", xmlWriter);
 
                 if (localChoice_table == null) {
@@ -41539,7 +41105,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localColumn_labelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "column_label", xmlWriter);
 
                 if (localColumn_label == null) {
@@ -41554,7 +41120,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCommentsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "comments", xmlWriter);
 
                 if (localComments == null) {
@@ -41569,7 +41135,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localCreate_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "create_roles", xmlWriter);
 
                 if (localCreate_roles == null) {
@@ -41584,7 +41150,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefault_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "default_value", xmlWriter);
 
                 if (localDefault_value == null) {
@@ -41599,7 +41165,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDefaultsortTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "defaultsort", xmlWriter);
 
                 if (localDefaultsort == null) {
@@ -41615,7 +41181,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDelete_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "delete_roles", xmlWriter);
 
                 if (localDelete_roles == null) {
@@ -41630,7 +41196,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependentTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent", xmlWriter);
 
                 if (localDependent == null) {
@@ -41645,7 +41211,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDependent_on_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dependent_on_field",
                     xmlWriter);
 
@@ -41661,7 +41227,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDisplayTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "display", xmlWriter);
 
                 if (false) {
@@ -41676,7 +41242,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creationTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation", xmlWriter);
 
                 if (false) {
@@ -41691,7 +41257,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_creation_scriptTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_creation_script",
                     xmlWriter);
 
@@ -41707,7 +41273,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_default_valueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_default_value",
                     xmlWriter);
 
@@ -41723,7 +41289,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localDynamic_ref_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "dynamic_ref_qual", xmlWriter);
 
                 if (localDynamic_ref_qual == null) {
@@ -41738,7 +41304,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element", xmlWriter);
 
                 if (localElement == null) {
@@ -41753,7 +41319,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localElement_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "element_reference",
                     xmlWriter);
 
@@ -41769,7 +41335,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localForeign_databaseTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "foreign_database", xmlWriter);
 
                 if (localForeign_database == null) {
@@ -41784,7 +41350,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_definitionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_definition",
                     xmlWriter);
 
@@ -41800,7 +41366,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localFunction_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "function_field", xmlWriter);
 
                 if (false) {
@@ -41815,7 +41381,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHelpTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "help", xmlWriter);
 
                 if (localHelp == null) {
@@ -41830,7 +41396,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localHintTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "hint", xmlWriter);
 
                 if (localHint == null) {
@@ -41845,7 +41411,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localInternal_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "internal_type", xmlWriter);
 
                 if (localInternal_type == null) {
@@ -41860,7 +41426,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localLabelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "label", xmlWriter);
 
                 if (localLabel == null) {
@@ -41875,7 +41441,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMandatoryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "mandatory", xmlWriter);
 
                 if (false) {
@@ -41890,7 +41456,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localMax_lengthTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "max_length", xmlWriter);
 
                 if (localMax_length == null) {
@@ -41906,7 +41472,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model", xmlWriter);
 
                 if (localModel == null) {
@@ -41921,7 +41487,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_id", xmlWriter);
 
                 if (localModel_id == null) {
@@ -41936,7 +41502,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localModel_tableTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "model_table", xmlWriter);
 
                 if (localModel_table == null) {
@@ -41951,7 +41517,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localNameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "name", xmlWriter);
 
                 if (localName == null) {
@@ -41966,7 +41532,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localNext_elementTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "next_element", xmlWriter);
 
                 if (localNext_element == null) {
@@ -41981,7 +41547,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localOrderTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "order", xmlWriter);
 
                 if (localOrder == null) {
@@ -41997,7 +41563,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localPrimaryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "primary", xmlWriter);
 
                 if (false) {
@@ -42012,7 +41578,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_onlyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_only", xmlWriter);
 
                 if (false) {
@@ -42027,7 +41593,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localRead_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "read_roles", xmlWriter);
 
                 if (localRead_roles == null) {
@@ -42042,7 +41608,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReferenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference", xmlWriter);
 
                 if (localReference == null) {
@@ -42057,7 +41623,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_cascade_ruleTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_cascade_rule",
                     xmlWriter);
 
@@ -42073,7 +41639,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_floatsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_floats", xmlWriter);
 
                 if (false) {
@@ -42088,7 +41654,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_keyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_key", xmlWriter);
 
                 if (localReference_key == null) {
@@ -42103,7 +41669,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual", xmlWriter);
 
                 if (localReference_qual == null) {
@@ -42118,7 +41684,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_qual_conditionTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_qual_condition",
                     xmlWriter);
 
@@ -42134,7 +41700,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localReference_typeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "reference_type", xmlWriter);
 
                 if (localReference_type == null) {
@@ -42149,7 +41715,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSizeclassTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sizeclass", xmlWriter);
 
                 if (localSizeclass == null) {
@@ -42165,7 +41731,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSpell_checkTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "spell_check", xmlWriter);
 
                 if (false) {
@@ -42180,7 +41746,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localStagedTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "staged", xmlWriter);
 
                 if (false) {
@@ -42195,7 +41761,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -42210,7 +41776,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -42225,7 +41791,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -42240,7 +41806,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -42255,7 +41821,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -42271,7 +41837,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_name", xmlWriter);
 
                 if (localSys_name == null) {
@@ -42286,7 +41852,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_packageTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_package", xmlWriter);
 
                 if (localSys_package == null) {
@@ -42301,7 +41867,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_policyTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_policy", xmlWriter);
 
                 if (localSys_policy == null) {
@@ -42316,7 +41882,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_scopeTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_scope", xmlWriter);
 
                 if (localSys_scope == null) {
@@ -42331,7 +41897,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_update_nameTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_update_name", xmlWriter);
 
                 if (localSys_update_name == null) {
@@ -42346,7 +41912,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -42361,7 +41927,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -42376,7 +41942,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localTable_referenceTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "table_reference", xmlWriter);
 
                 if (false) {
@@ -42391,7 +41957,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localText_indexTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "text_index", xmlWriter);
 
                 if (false) {
@@ -42406,7 +41972,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUniqueTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "unique", xmlWriter);
 
                 if (false) {
@@ -42421,7 +41987,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dependent_fieldTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dependent_field",
                     xmlWriter);
 
@@ -42437,7 +42003,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_dynamic_defaultTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_dynamic_default",
                     xmlWriter);
 
@@ -42453,7 +42019,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localUse_reference_qualifierTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "use_reference_qualifier",
                     xmlWriter);
 
@@ -42469,7 +42035,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localVirtualTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "virtual", xmlWriter);
 
                 if (false) {
@@ -42484,7 +42050,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWidgetTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "widget", xmlWriter);
 
                 if (localWidget == null) {
@@ -42499,7 +42065,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localWrite_rolesTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "write_roles", xmlWriter);
 
                 if (localWrite_roles == null) {
@@ -42514,7 +42080,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localXml_viewTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "xml_view", xmlWriter);
 
                 if (false) {
@@ -42529,7 +42095,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__use_viewTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__use_view", xmlWriter);
 
                 if (local__use_view == null) {
@@ -42544,7 +42110,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__encoded_queryTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__encoded_query", xmlWriter);
 
                 if (local__encoded_query == null) {
@@ -42559,7 +42125,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__limitTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__limit", xmlWriter);
 
                 if (local__limit == null) {
@@ -42574,7 +42140,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__first_rowTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__first_row", xmlWriter);
 
                 if (local__first_row == null) {
@@ -42589,7 +42155,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__last_rowTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__last_row", xmlWriter);
 
                 if (local__last_row == null) {
@@ -42604,7 +42170,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__order_byTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__order_by", xmlWriter);
 
                 if (local__order_by == null) {
@@ -42619,7 +42185,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__order_by_descTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__order_by_desc", xmlWriter);
 
                 if (local__order_by_desc == null) {
@@ -42634,7 +42200,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (local__exclude_columnsTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "__exclude_columns",
                     xmlWriter);
 
@@ -42929,9 +42495,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -42957,9 +42522,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "array").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "array").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -42984,8 +42548,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "array_denormalized").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -43012,9 +42575,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "attributes").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "attributes").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43040,9 +42602,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "audit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "audit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43067,9 +42628,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "calculation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "calculation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43095,9 +42655,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43123,9 +42682,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43151,9 +42709,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "choice_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "choice_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43179,9 +42736,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "column_label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "column_label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43207,9 +42763,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "comments").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "comments").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43235,9 +42790,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "create_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "create_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43263,9 +42817,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "default_value").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "default_value").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43291,9 +42844,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "defaultsort").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "defaultsort").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43319,9 +42871,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "delete_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "delete_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43347,9 +42898,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dependent").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dependent").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43375,8 +42925,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dependent_on_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -43403,9 +42952,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "display").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "display").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43431,9 +42979,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_creation").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_creation").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43459,8 +43006,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_creation_script").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -43488,8 +43034,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "dynamic_default_value").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -43517,9 +43062,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "dynamic_ref_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "dynamic_ref_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43545,9 +43089,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43573,8 +43116,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "element_reference").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -43601,9 +43143,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "foreign_database").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "foreign_database").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43629,8 +43170,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "function_definition").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -43657,9 +43197,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "function_field").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "function_field").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43685,9 +43224,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "help").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "help").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43712,9 +43250,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "hint").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "hint").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43739,9 +43276,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "internal_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "internal_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43767,9 +43303,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43794,9 +43329,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "mandatory").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "mandatory").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43822,9 +43356,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "max_length").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "max_length").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43850,9 +43383,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43877,9 +43409,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43905,9 +43436,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "model_table").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "model_table").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43933,9 +43463,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43960,9 +43489,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "next_element").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "next_element").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -43988,9 +43516,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "order").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "order").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44015,9 +43542,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "primary").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "primary").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44043,9 +43569,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_only").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_only").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44071,9 +43596,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "read_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "read_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44099,9 +43623,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44127,8 +43650,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_cascade_rule").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -44156,9 +43678,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_floats").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_floats").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44184,9 +43705,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_key").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_key").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44212,9 +43732,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_qual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_qual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44240,8 +43759,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "reference_qual_condition").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -44269,9 +43787,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "reference_type").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "reference_type").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44297,9 +43814,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sizeclass").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sizeclass").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44325,9 +43841,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "spell_check").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "spell_check").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44353,9 +43868,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "staged").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "staged").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44381,9 +43895,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44409,9 +43922,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44437,9 +43949,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44465,9 +43976,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44493,9 +44003,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44521,9 +44030,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44549,9 +44057,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_package").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_package").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44577,9 +44084,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_policy").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_policy").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44605,9 +44111,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_scope").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_scope").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44633,9 +44138,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_update_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_update_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44661,9 +44165,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44689,9 +44192,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44717,9 +44219,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "table_reference").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "table_reference").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44745,9 +44246,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "text_index").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "text_index").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44773,9 +44273,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "unique").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "unique").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44801,8 +44300,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dependent_field").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -44829,8 +44327,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_dynamic_default").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -44857,8 +44354,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "use_reference_qualifier").equals(
                                 reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
@@ -44886,9 +44382,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "virtual").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "virtual").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44914,9 +44409,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "widget").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "widget").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44942,9 +44436,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "write_roles").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "write_roles").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44970,9 +44463,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "xml_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "xml_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -44998,9 +44490,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__use_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__use_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -45026,9 +44517,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__encoded_query").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__encoded_query").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -45054,9 +44544,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__limit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__limit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -45082,9 +44571,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__first_row").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__first_row").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -45110,9 +44598,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__last_row").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__last_row").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -45138,9 +44625,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__order_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__order_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -45166,9 +44652,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "__order_by_desc").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__order_by_desc").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -45194,8 +44679,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
+                            new javax.xml.namespace.QName("",
                                 "__exclude_columns").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -45352,8 +44836,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                     for (int i = 0; i < localGetRecordsResult.length; i++) {
                         if (localGetRecordsResult[i] != null) {
                             localGetRecordsResult[i].serialize(new javax.xml.namespace.QName(
-                                    "http://www.service-now.com/atf_input_variable",
-                                    "getRecordsResult"), xmlWriter);
+                                    "", "getRecordsResult"), xmlWriter);
                         } else {
                             // we don't have to do any thing since minOccures is zero
                         }
@@ -45646,9 +45129,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "getRecordsResult").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "getRecordsResult").equals(
+                                reader.getName())) {
                         // Process the array and step past its final element's end.
                         list1.add(GetRecordsResult_type0.Factory.parse(reader));
 
@@ -45672,8 +45154,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                                 //two continuous end elements means we are exiting the xml structure
                                 loopDone1 = true;
                             } else {
-                                if (new javax.xml.namespace.QName(
-                                            "http://www.service-now.com/atf_input_variable",
+                                if (new javax.xml.namespace.QName("",
                                             "getRecordsResult").equals(
                                             reader.getName())) {
                                     list1.add(GetRecordsResult_type0.Factory.parse(
@@ -45725,15 +45206,15 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
         protected boolean localSys_idTracker = false;
 
         /**
-         * field for Column_label
+         * field for Label
          */
-        protected java.lang.String localColumn_label;
+        protected java.lang.String localLabel;
 
         /*  This tracker boolean wil be used to detect whether the user called the set method
          *   for this attribute. It will be used to determine whether to include this field
          *   in the serialized XML
          */
-        protected boolean localColumn_labelTracker = false;
+        protected boolean localLabelTracker = false;
 
         public boolean isSys_idSpecified() {
             return localSys_idTracker;
@@ -45757,26 +45238,26 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             this.localSys_id = param;
         }
 
-        public boolean isColumn_labelSpecified() {
-            return localColumn_labelTracker;
+        public boolean isLabelSpecified() {
+            return localLabelTracker;
         }
 
         /**
          * Auto generated getter method
          * @return java.lang.String
          */
-        public java.lang.String getColumn_label() {
-            return localColumn_label;
+        public java.lang.String getLabel() {
+            return localLabel;
         }
 
         /**
          * Auto generated setter method
-         * @param param Column_label
+         * @param param Label
          */
-        public void setColumn_label(java.lang.String param) {
-            localColumn_labelTracker = param != null;
+        public void setLabel(java.lang.String param) {
+            localLabelTracker = param != null;
 
-            this.localColumn_label = param;
+            this.localLabel = param;
         }
 
         /**
@@ -45829,7 +45310,7 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -45843,16 +45324,16 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                 xmlWriter.writeEndElement();
             }
 
-            if (localColumn_labelTracker) {
-                namespace = "http://www.service-now.com/atf_input_variable";
-                writeStartElement(null, namespace, "column_label", xmlWriter);
+            if (localLabelTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "label", xmlWriter);
 
-                if (localColumn_label == null) {
+                if (localLabel == null) {
                     // write the nil attribute
                     throw new org.apache.axis2.databinding.ADBException(
-                        "column_label cannot be null!!");
+                        "label cannot be null!!");
                 } else {
-                    xmlWriter.writeCharacters(localColumn_label);
+                    xmlWriter.writeCharacters(localLabel);
                 }
 
                 xmlWriter.writeEndElement();
@@ -46138,9 +45619,8 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -46166,22 +45646,20 @@ public class ServiceNow_atf_input_variableStub extends org.apache.axis2.client.S
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/atf_input_variable",
-                                "column_label").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "label").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
                         if ("true".equals(nillableValue) ||
                                 "1".equals(nillableValue)) {
                             throw new org.apache.axis2.databinding.ADBException(
-                                "The element: " + "column_label" +
-                                "  cannot be null");
+                                "The element: " + "label" + "  cannot be null");
                         }
 
                         java.lang.String content = reader.getElementText();
 
-                        object.setColumn_label(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                        object.setLabel(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
                                 content));
 
                         reader.next();

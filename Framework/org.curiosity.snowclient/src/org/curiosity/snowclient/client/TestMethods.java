@@ -1,5 +1,7 @@
 package org.curiosity.snowclient.client;
 
+import org.curiosity.snowclient.client.ServiceNow_sys_atf_test_suiteStub;
+
 public class TestMethods {
 
 	public static void main(String[] args) throws Exception 

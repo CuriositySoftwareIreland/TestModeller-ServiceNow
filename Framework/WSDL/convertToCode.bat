@@ -1,0 +1,9 @@
+C:/axis2-1.7.9/bin/wsdl2java.bat -uri file:///C:/SNow/Framework/WSDL/sys_atf_test_suite_test.do.xml -p org.curiosity.snowclient.client -d adb -s -o C:/SNow/Framework/org.curiosity.snowclient/client/
+C:/axis2-1.7.9/bin/wsdl2java.bat -uri file:///C:/SNow/Framework/WSDL/sys_atf_test_suite_result.do.xml -p org.curiosity.snowclient.client -d adb -s -o C:/SNow/Framework/org.curiosity.snowclient/client/
+C:/axis2-1.7.9/bin/wsdl2java.bat -uri file:///C:/SNow/Framework/WSDL/sys_atf_test_result.do.xml -p org.curiosity.snowclient.client -d adb -s -o C:/SNow/Framework/org.curiosity.snowclient/client/
+C:/axis2-1.7.9/bin/wsdl2java.bat -uri file:///C:/SNow/Framework/WSDL/sys_atf_test.do.xml -p org.curiosity.snowclient.client -d adb -s -o C:/SNow/Framework/org.curiosity.snowclient/client/
+C:/axis2-1.7.9/bin/wsdl2java.bat -uri file:///C:/SNow/Framework/WSDL/sys_atf_step_config.do.xml -p org.curiosity.snowclient.client -d adb -s -o C:/SNow/Framework/org.curiosity.snowclient/client/
+C:/axis2-1.7.9/bin/wsdl2java.bat -uri file:///C:/SNow/Framework/WSDL/sys_atf_step.do.xml -p org.curiosity.snowclient.client -d adb -s -o C:/SNow/Framework/org.curiosity.snowclient/client/
+C:/axis2-1.7.9/bin/wsdl2java.bat -uri file:///C:/SNow/Framework/WSDL/atf_input_variable.do.xml -p org.curiosity.snowclient.client -d adb -s -o C:/SNow/Framework/org.curiosity.snowclient/client/
+C:/axis2-1.7.9/bin/wsdl2java.bat -uri file:///C:/SNow/Framework/WSDL/sys_variable_value.do.xml -p org.curiosity.snowclient.client -d adb -s -o C:/SNow/Framework/org.curiosity.snowclient/client/
+C:/axis2-1.7.9/bin/wsdl2java.bat -uri file:///C:/SNow/Framework/WSDL/sys_atf_test_suite.do.xml -p org.curiosity.snowclient.client -d adb -s -o C:/SNow/Framework/org.curiosity.snowclient/client/

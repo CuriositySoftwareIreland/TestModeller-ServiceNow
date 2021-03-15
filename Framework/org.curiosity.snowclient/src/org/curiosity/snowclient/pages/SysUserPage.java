@@ -73,6 +73,6 @@ public class SysUserPage {
     }
 
     public void ClickSubmit() throws Exception {
-        snClient.clickSubmit(formName);
+        snClient.clickSubmit(formName, submitButton);
     }
 }

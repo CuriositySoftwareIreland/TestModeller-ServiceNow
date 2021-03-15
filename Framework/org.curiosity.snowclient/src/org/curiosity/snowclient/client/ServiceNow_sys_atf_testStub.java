@@ -56,14 +56,14 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         org.apache.axis2.context.ConfigurationContext configurationContext)
         throws org.apache.axis2.AxisFault {
         this(configurationContext,
-            "https://dev75196.service-now.com/sys_atf_test.do?SOAP");
+            "https://dev105646.service-now.com/sys_atf_test.do/?SOAP");
     }
 
     /**
      * Default Constructor
      */
     public ServiceNow_sys_atf_testStub() throws org.apache.axis2.AxisFault {
-        this("https://dev75196.service-now.com/sys_atf_test.do?SOAP");
+        this("https://dev105646.service-now.com/sys_atf_test.do/?SOAP");
     }
 
     /**
@@ -161,11 +161,11 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_atf_test#getRecords
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_atf_test#getRecords
      * @param getRecords
      */
-    public ServiceNow_sys_atf_testStub.GetRecordsResponse getRecords(
-        ServiceNow_sys_atf_testStub.GetRecords getRecords)
+    public org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecordsResponse getRecords(
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecords getRecords)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -208,9 +208,9 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_atf_testStub.GetRecordsResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecordsResponse.class);
 
-            return (ServiceNow_sys_atf_testStub.GetRecordsResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecordsResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -273,11 +273,11 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_atf_test#insert
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_atf_test#insert
      * @param insert
      */
-    public ServiceNow_sys_atf_testStub.InsertResponse insert(
-        ServiceNow_sys_atf_testStub.Insert insert)
+    public org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.InsertResponse insert(
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Insert insert)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -319,9 +319,9 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_atf_testStub.InsertResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.InsertResponse.class);
 
-            return (ServiceNow_sys_atf_testStub.InsertResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.InsertResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -384,11 +384,11 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_atf_test#update
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_atf_test#update
      * @param update
      */
-    public ServiceNow_sys_atf_testStub.UpdateResponse update(
-        ServiceNow_sys_atf_testStub.Update update)
+    public org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.UpdateResponse update(
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Update update)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -430,9 +430,9 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_atf_testStub.UpdateResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.UpdateResponse.class);
 
-            return (ServiceNow_sys_atf_testStub.UpdateResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.UpdateResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -495,11 +495,11 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_atf_test#getKeys
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_atf_test#getKeys
      * @param getKeys
      */
-    public ServiceNow_sys_atf_testStub.GetKeysResponse getKeys(
-        ServiceNow_sys_atf_testStub.GetKeys getKeys)
+    public org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeysResponse getKeys(
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeys getKeys)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -541,9 +541,9 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_atf_testStub.GetKeysResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeysResponse.class);
 
-            return (ServiceNow_sys_atf_testStub.GetKeysResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeysResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -606,11 +606,11 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_atf_test#deleteRecord
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_atf_test#deleteRecord
      * @param deleteRecord
      */
-    public ServiceNow_sys_atf_testStub.DeleteRecordResponse deleteRecord(
-        ServiceNow_sys_atf_testStub.DeleteRecord deleteRecord)
+    public org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecordResponse deleteRecord(
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecord deleteRecord)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -654,9 +654,9 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_atf_testStub.DeleteRecordResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecordResponse.class);
 
-            return (ServiceNow_sys_atf_testStub.DeleteRecordResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecordResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -719,11 +719,11 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_atf_test#deleteMultiple
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_atf_test#deleteMultiple
      * @param deleteMultiple
      */
-    public ServiceNow_sys_atf_testStub.DeleteMultipleResponse deleteMultiple(
-        ServiceNow_sys_atf_testStub.DeleteMultiple deleteMultiple)
+    public org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultipleResponse deleteMultiple(
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultiple deleteMultiple)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -767,9 +767,9 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_atf_testStub.DeleteMultipleResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultipleResponse.class);
 
-            return (ServiceNow_sys_atf_testStub.DeleteMultipleResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultipleResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -832,11 +832,11 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /**
      * Auto generated method signature
      *
-     * @see org.curiosity.snowclient.ServiceNow_sys_atf_test#get
+     * @see org.curiosity.snowclient.client.ServiceNow_sys_atf_test#get
      * @param get
      */
-    public ServiceNow_sys_atf_testStub.GetResponse get(
-        ServiceNow_sys_atf_testStub.Get get)
+    public org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetResponse get(
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Get get)
         throws java.rmi.RemoteException {
         org.apache.axis2.context.MessageContext _messageContext = new org.apache.axis2.context.MessageContext();
 
@@ -878,9 +878,9 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
 
             java.lang.Object object = fromOM(_returnEnv.getBody()
                                                        .getFirstElement(),
-                    ServiceNow_sys_atf_testStub.GetResponse.class);
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetResponse.class);
 
-            return (ServiceNow_sys_atf_testStub.GetResponse) object;
+            return (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetResponse) object;
         } catch (org.apache.axis2.AxisFault f) {
             org.apache.axiom.om.OMElement faultElt = f.getDetail();
 
@@ -955,10 +955,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.GetRecords param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecords param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.GetRecords.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecords.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -966,10 +966,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.GetRecordsResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecordsResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.GetRecordsResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecordsResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -977,10 +977,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.Insert param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Insert param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.Insert.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Insert.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -988,10 +988,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.InsertResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.InsertResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.InsertResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.InsertResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -999,10 +999,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.Update param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Update param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.Update.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Update.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1010,10 +1010,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.UpdateResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.UpdateResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.UpdateResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.UpdateResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1021,10 +1021,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.GetKeys param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeys param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.GetKeys.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeys.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1032,10 +1032,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.GetKeysResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeysResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.GetKeysResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeysResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1043,10 +1043,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.DeleteRecord param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecord param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.DeleteRecord.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecord.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1054,10 +1054,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.DeleteRecordResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecordResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.DeleteRecordResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecordResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1065,10 +1065,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.DeleteMultiple param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultiple param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.DeleteMultiple.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultiple.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1076,10 +1076,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.DeleteMultipleResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultipleResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.DeleteMultipleResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultipleResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1087,10 +1087,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.Get param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Get param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.Get.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Get.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1098,10 +1098,10 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     }
 
     private org.apache.axiom.om.OMElement toOM(
-        ServiceNow_sys_atf_testStub.GetResponse param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetResponse param,
         boolean optimizeContent) throws org.apache.axis2.AxisFault {
         try {
-            return param.getOMElement(ServiceNow_sys_atf_testStub.GetResponse.MY_QNAME,
+            return param.getOMElement(org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetResponse.MY_QNAME,
                 org.apache.axiom.om.OMAbstractFactory.getOMFactory());
         } catch (org.apache.axis2.databinding.ADBException e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1110,14 +1110,14 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
 
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_atf_testStub.GetRecords param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecords param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_atf_testStub.GetRecords.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecords.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1129,14 +1129,14 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_atf_testStub.Insert param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Insert param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_atf_testStub.Insert.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Insert.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1148,14 +1148,14 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_atf_testStub.Update param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Update param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_atf_testStub.Update.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Update.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1167,14 +1167,14 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_atf_testStub.GetKeys param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeys param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_atf_testStub.GetKeys.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeys.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1186,14 +1186,14 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_atf_testStub.DeleteRecord param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecord param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_atf_testStub.DeleteRecord.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecord.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1205,14 +1205,14 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_atf_testStub.DeleteMultiple param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultiple param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_atf_testStub.DeleteMultiple.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultiple.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1224,14 +1224,14 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     /* methods to provide back word compatibility */
     private org.apache.axiom.soap.SOAPEnvelope toEnvelope(
         org.apache.axiom.soap.SOAPFactory factory,
-        ServiceNow_sys_atf_testStub.Get param,
+        org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Get param,
         boolean optimizeContent, javax.xml.namespace.QName elementQName)
         throws org.apache.axis2.AxisFault {
         try {
             org.apache.axiom.soap.SOAPEnvelope emptyEnvelope = factory.getDefaultEnvelope();
             emptyEnvelope.getBody()
                          .addChild(param.getOMElement(
-                    ServiceNow_sys_atf_testStub.Get.MY_QNAME,
+                    org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Get.MY_QNAME,
                     factory));
 
             return emptyEnvelope;
@@ -1253,74 +1253,74 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
     private java.lang.Object fromOM(org.apache.axiom.om.OMElement param,
         java.lang.Class type) throws org.apache.axis2.AxisFault {
         try {
-            if (ServiceNow_sys_atf_testStub.DeleteMultiple.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultiple.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.DeleteMultiple.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultiple.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.DeleteMultipleResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultipleResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.DeleteMultipleResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteMultipleResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.DeleteRecord.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecord.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.DeleteRecord.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecord.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.DeleteRecordResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecordResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.DeleteRecordResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.DeleteRecordResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.Get.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Get.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.Get.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Get.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.GetKeys.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeys.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.GetKeys.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeys.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.GetKeysResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeysResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.GetKeysResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetKeysResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.GetRecords.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecords.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.GetRecords.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecords.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.GetRecordsResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecordsResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.GetRecordsResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetRecordsResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.GetResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.GetResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.GetResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.Insert.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Insert.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.Insert.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Insert.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.InsertResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.InsertResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.InsertResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.InsertResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.Update.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Update.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.Update.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.Update.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
 
-            if (ServiceNow_sys_atf_testStub.UpdateResponse.class.equals(
+            if (org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.UpdateResponse.class.equals(
                         type)) {
-                return ServiceNow_sys_atf_testStub.UpdateResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
+                return org.curiosity.snowclient.client.ServiceNow_sys_atf_testStub.UpdateResponse.Factory.parse(param.getXMLStreamReaderWithoutCaching());
             }
         } catch (java.lang.Exception e) {
             throw org.apache.axis2.AxisFault.makeFault(e);
@@ -1329,7 +1329,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         return null;
     }
 
-    //https://dev75196.service-now.com/sys_atf_test.do?SOAP
+    //https://dev105646.service-now.com/sys_atf_test.do/?SOAP
     public static class GetRecordsResult_type0 implements org.apache.axis2.databinding.ADBBean {
         /* This type was generated from the piece of schema that had
            name = getRecordsResult_type0
@@ -1349,6 +1349,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localActiveTracker = false;
 
         /**
+         * field for Copied_from
+         */
+        protected java.lang.String localCopied_from;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localCopied_fromTracker = false;
+
+        /**
          * field for Description
          */
         protected java.lang.String localDescription;
@@ -1360,6 +1371,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localDescriptionTracker = false;
 
         /**
+         * field for Enable_parameterized_testing
+         */
+        protected boolean localEnable_parameterized_testing;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localEnable_parameterized_testingTracker = false;
+
+        /**
          * field for Name
          */
         protected java.lang.String localName;
@@ -1369,6 +1391,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
          *   in the serialized XML
          */
         protected boolean localNameTracker = false;
+
+        /**
+         * field for Parameters
+         */
+        protected java.lang.String localParameters;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localParametersTracker = false;
 
         /**
          * field for Remember
@@ -1536,6 +1569,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localActive = param;
         }
 
+        public boolean isCopied_fromSpecified() {
+            return localCopied_fromTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getCopied_from() {
+            return localCopied_from;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Copied_from
+         */
+        public void setCopied_from(java.lang.String param) {
+            localCopied_fromTracker = param != null;
+
+            this.localCopied_from = param;
+        }
+
         public boolean isDescriptionSpecified() {
             return localDescriptionTracker;
         }
@@ -1558,6 +1613,29 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localDescription = param;
         }
 
+        public boolean isEnable_parameterized_testingSpecified() {
+            return localEnable_parameterized_testingTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return boolean
+         */
+        public boolean getEnable_parameterized_testing() {
+            return localEnable_parameterized_testing;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Enable_parameterized_testing
+         */
+        public void setEnable_parameterized_testing(boolean param) {
+            // setting primitive attribute tracker to true
+            localEnable_parameterized_testingTracker = true;
+
+            this.localEnable_parameterized_testing = param;
+        }
+
         public boolean isNameSpecified() {
             return localNameTracker;
         }
@@ -1578,6 +1656,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             localNameTracker = param != null;
 
             this.localName = param;
+        }
+
+        public boolean isParametersSpecified() {
+            return localParametersTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getParameters() {
+            return localParameters;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Parameters
+         */
+        public void setParameters(java.lang.String param) {
+            localParametersTracker = param != null;
+
+            this.localParameters = param;
         }
 
         public boolean isRememberSpecified() {
@@ -1916,7 +2016,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -1930,8 +2030,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localCopied_fromTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "copied_from", xmlWriter);
+
+                if (localCopied_from == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "copied_from cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localCopied_from);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localDescriptionTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "description", xmlWriter);
 
                 if (localDescription == null) {
@@ -1945,8 +2060,24 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localEnable_parameterized_testingTracker) {
+                namespace = "";
+                writeStartElement(null, namespace,
+                    "enable_parameterized_testing", xmlWriter);
+
+                if (false) {
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "enable_parameterized_testing cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                            localEnable_parameterized_testing));
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localNameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "name", xmlWriter);
 
                 if (localName == null) {
@@ -1960,8 +2091,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localParametersTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "parameters", xmlWriter);
+
+                if (localParameters == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "parameters cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localParameters);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localRememberTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "remember", xmlWriter);
 
                 if (localRemember == null) {
@@ -1976,7 +2122,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -1991,7 +2137,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -2006,7 +2152,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -2021,7 +2167,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -2036,7 +2182,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -2052,7 +2198,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_name", xmlWriter);
 
                 if (localSys_name == null) {
@@ -2067,7 +2213,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_packageTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_package", xmlWriter);
 
                 if (localSys_package == null) {
@@ -2082,7 +2228,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_policyTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_policy", xmlWriter);
 
                 if (localSys_policy == null) {
@@ -2097,7 +2243,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_scopeTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_scope", xmlWriter);
 
                 if (localSys_scope == null) {
@@ -2112,7 +2258,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_update_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_update_name", xmlWriter);
 
                 if (localSys_update_name == null) {
@@ -2127,7 +2273,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -2142,7 +2288,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -2435,9 +2581,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2463,9 +2608,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "description").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "copied_from").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "copied_from" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setCopied_from(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "description").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2491,9 +2662,37 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("",
+                                "enable_parameterized_testing").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " +
+                                "enable_parameterized_testing" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setEnable_parameterized_testing(org.apache.axis2.databinding.utils.ConverterUtil.convertToBoolean(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2518,9 +2717,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "remember").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "parameters").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "parameters" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setParameters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "remember").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2546,9 +2771,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2574,9 +2798,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2602,9 +2825,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2630,9 +2852,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2658,9 +2879,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2686,9 +2906,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2714,9 +2933,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_package").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_package").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2742,9 +2960,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_policy").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_policy").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2770,9 +2987,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_scope").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_scope").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2798,9 +3014,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_update_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_update_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2826,9 +3041,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2854,9 +3068,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -2911,6 +3124,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localActiveTracker = false;
 
         /**
+         * field for Copied_from
+         */
+        protected java.lang.String localCopied_from;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localCopied_fromTracker = false;
+
+        /**
          * field for Description
          */
         protected java.lang.String localDescription;
@@ -2922,6 +3146,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localDescriptionTracker = false;
 
         /**
+         * field for Enable_parameterized_testing
+         */
+        protected boolean localEnable_parameterized_testing;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localEnable_parameterized_testingTracker = false;
+
+        /**
          * field for Name
          */
         protected java.lang.String localName;
@@ -2931,6 +3166,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
          *   in the serialized XML
          */
         protected boolean localNameTracker = false;
+
+        /**
+         * field for Parameters
+         */
+        protected java.lang.String localParameters;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localParametersTracker = false;
 
         /**
          * field for Remember
@@ -3098,6 +3344,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localActive = param;
         }
 
+        public boolean isCopied_fromSpecified() {
+            return localCopied_fromTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getCopied_from() {
+            return localCopied_from;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Copied_from
+         */
+        public void setCopied_from(java.lang.String param) {
+            localCopied_fromTracker = param != null;
+
+            this.localCopied_from = param;
+        }
+
         public boolean isDescriptionSpecified() {
             return localDescriptionTracker;
         }
@@ -3120,6 +3388,29 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localDescription = param;
         }
 
+        public boolean isEnable_parameterized_testingSpecified() {
+            return localEnable_parameterized_testingTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return boolean
+         */
+        public boolean getEnable_parameterized_testing() {
+            return localEnable_parameterized_testing;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Enable_parameterized_testing
+         */
+        public void setEnable_parameterized_testing(boolean param) {
+            // setting primitive attribute tracker to true
+            localEnable_parameterized_testingTracker = true;
+
+            this.localEnable_parameterized_testing = param;
+        }
+
         public boolean isNameSpecified() {
             return localNameTracker;
         }
@@ -3140,6 +3431,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             localNameTracker = param != null;
 
             this.localName = param;
+        }
+
+        public boolean isParametersSpecified() {
+            return localParametersTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getParameters() {
+            return localParameters;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Parameters
+         */
+        public void setParameters(java.lang.String param) {
+            localParametersTracker = param != null;
+
+            this.localParameters = param;
         }
 
         public boolean isRememberSpecified() {
@@ -3478,7 +3791,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -3492,8 +3805,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localCopied_fromTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "copied_from", xmlWriter);
+
+                if (localCopied_from == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "copied_from cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localCopied_from);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localDescriptionTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "description", xmlWriter);
 
                 if (localDescription == null) {
@@ -3507,8 +3835,24 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localEnable_parameterized_testingTracker) {
+                namespace = "";
+                writeStartElement(null, namespace,
+                    "enable_parameterized_testing", xmlWriter);
+
+                if (false) {
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "enable_parameterized_testing cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                            localEnable_parameterized_testing));
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localNameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "name", xmlWriter);
 
                 if (localName == null) {
@@ -3522,8 +3866,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localParametersTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "parameters", xmlWriter);
+
+                if (localParameters == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "parameters cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localParameters);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localRememberTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "remember", xmlWriter);
 
                 if (localRemember == null) {
@@ -3538,7 +3897,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -3553,7 +3912,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -3568,7 +3927,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -3583,7 +3942,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -3598,7 +3957,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -3614,7 +3973,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_name", xmlWriter);
 
                 if (localSys_name == null) {
@@ -3629,7 +3988,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_packageTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_package", xmlWriter);
 
                 if (localSys_package == null) {
@@ -3644,7 +4003,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_policyTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_policy", xmlWriter);
 
                 if (localSys_policy == null) {
@@ -3659,7 +4018,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_scopeTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_scope", xmlWriter);
 
                 if (localSys_scope == null) {
@@ -3674,7 +4033,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_update_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_update_name", xmlWriter);
 
                 if (localSys_update_name == null) {
@@ -3689,7 +4048,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -3704,7 +4063,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -3997,9 +4356,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4025,9 +4383,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "description").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "copied_from").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "copied_from" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setCopied_from(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "description").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4053,9 +4437,37 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("",
+                                "enable_parameterized_testing").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " +
+                                "enable_parameterized_testing" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setEnable_parameterized_testing(org.apache.axis2.databinding.utils.ConverterUtil.convertToBoolean(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4080,9 +4492,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "remember").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "parameters").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "parameters" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setParameters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "remember").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4108,9 +4546,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4136,9 +4573,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4164,9 +4600,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4192,9 +4627,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4220,9 +4654,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4248,9 +4681,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4276,9 +4708,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_package").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_package").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4304,9 +4735,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_policy").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_policy").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4332,9 +4762,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_scope").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_scope").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4360,9 +4789,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_update_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_update_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4388,9 +4816,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4416,9 +4843,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -4487,6 +4913,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localActiveTracker = false;
 
         /**
+         * field for Copied_from
+         */
+        protected java.lang.String localCopied_from;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localCopied_fromTracker = false;
+
+        /**
          * field for Description
          */
         protected java.lang.String localDescription;
@@ -4498,6 +4935,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localDescriptionTracker = false;
 
         /**
+         * field for Enable_parameterized_testing
+         */
+        protected boolean localEnable_parameterized_testing;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localEnable_parameterized_testingTracker = false;
+
+        /**
          * field for Name
          */
         protected java.lang.String localName;
@@ -4507,6 +4955,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
          *   in the serialized XML
          */
         protected boolean localNameTracker = false;
+
+        /**
+         * field for Parameters
+         */
+        protected java.lang.String localParameters;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localParametersTracker = false;
 
         /**
          * field for Remember
@@ -4718,6 +5177,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localActive = param;
         }
 
+        public boolean isCopied_fromSpecified() {
+            return localCopied_fromTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getCopied_from() {
+            return localCopied_from;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Copied_from
+         */
+        public void setCopied_from(java.lang.String param) {
+            localCopied_fromTracker = param != null;
+
+            this.localCopied_from = param;
+        }
+
         public boolean isDescriptionSpecified() {
             return localDescriptionTracker;
         }
@@ -4740,6 +5221,29 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localDescription = param;
         }
 
+        public boolean isEnable_parameterized_testingSpecified() {
+            return localEnable_parameterized_testingTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return boolean
+         */
+        public boolean getEnable_parameterized_testing() {
+            return localEnable_parameterized_testing;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Enable_parameterized_testing
+         */
+        public void setEnable_parameterized_testing(boolean param) {
+            // setting primitive attribute tracker to true
+            localEnable_parameterized_testingTracker = true;
+
+            this.localEnable_parameterized_testing = param;
+        }
+
         public boolean isNameSpecified() {
             return localNameTracker;
         }
@@ -4760,6 +5264,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             localNameTracker = param != null;
 
             this.localName = param;
+        }
+
+        public boolean isParametersSpecified() {
+            return localParametersTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getParameters() {
+            return localParameters;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Parameters
+         */
+        public void setParameters(java.lang.String param) {
+            localParametersTracker = param != null;
+
+            this.localParameters = param;
         }
 
         public boolean isRememberSpecified() {
@@ -5186,7 +5712,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -5200,8 +5726,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localCopied_fromTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "copied_from", xmlWriter);
+
+                if (localCopied_from == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "copied_from cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localCopied_from);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localDescriptionTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "description", xmlWriter);
 
                 if (localDescription == null) {
@@ -5215,8 +5756,24 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localEnable_parameterized_testingTracker) {
+                namespace = "";
+                writeStartElement(null, namespace,
+                    "enable_parameterized_testing", xmlWriter);
+
+                if (false) {
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "enable_parameterized_testing cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                            localEnable_parameterized_testing));
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localNameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "name", xmlWriter);
 
                 if (localName == null) {
@@ -5230,8 +5787,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localParametersTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "parameters", xmlWriter);
+
+                if (localParameters == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "parameters cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localParameters);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localRememberTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "remember", xmlWriter);
 
                 if (localRemember == null) {
@@ -5246,7 +5818,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -5261,7 +5833,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -5276,7 +5848,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -5291,7 +5863,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -5307,7 +5879,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_name", xmlWriter);
 
                 if (localSys_name == null) {
@@ -5322,7 +5894,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_packageTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_package", xmlWriter);
 
                 if (localSys_package == null) {
@@ -5337,7 +5909,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_policyTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_policy", xmlWriter);
 
                 if (localSys_policy == null) {
@@ -5352,7 +5924,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_scopeTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_scope", xmlWriter);
 
                 if (localSys_scope == null) {
@@ -5367,7 +5939,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_update_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_update_name", xmlWriter);
 
                 if (localSys_update_name == null) {
@@ -5382,7 +5954,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -5397,7 +5969,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -5412,7 +5984,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__use_viewTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__use_view", xmlWriter);
 
                 if (local__use_view == null) {
@@ -5427,7 +5999,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__encoded_queryTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__encoded_query", xmlWriter);
 
                 if (local__encoded_query == null) {
@@ -5442,7 +6014,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__limitTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__limit", xmlWriter);
 
                 if (local__limit == null) {
@@ -5457,7 +6029,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__first_rowTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__first_row", xmlWriter);
 
                 if (local__first_row == null) {
@@ -5472,7 +6044,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__last_rowTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__last_row", xmlWriter);
 
                 if (local__last_row == null) {
@@ -5764,9 +6336,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5792,9 +6363,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "description").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "copied_from").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "copied_from" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setCopied_from(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "description").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5820,9 +6417,37 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("",
+                                "enable_parameterized_testing").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " +
+                                "enable_parameterized_testing" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setEnable_parameterized_testing(org.apache.axis2.databinding.utils.ConverterUtil.convertToBoolean(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5847,9 +6472,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "remember").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "parameters").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "parameters" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setParameters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "remember").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5875,9 +6526,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5903,9 +6553,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5931,9 +6580,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5959,9 +6607,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -5987,9 +6634,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6015,9 +6661,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_package").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_package").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6043,9 +6688,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_policy").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_policy").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6071,9 +6715,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_scope").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_scope").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6099,9 +6742,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_update_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_update_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6127,9 +6769,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6155,9 +6796,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6183,9 +6823,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__use_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__use_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6211,9 +6850,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__encoded_query").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__encoded_query").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6239,9 +6877,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__limit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__limit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6267,9 +6904,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__first_row").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__first_row").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6295,9 +6931,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__last_row").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__last_row").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6423,7 +7058,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -6716,9 +7351,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -6831,7 +7465,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 }
             }
 
-            namespace = "http://www.service-now.com/sys_atf_test";
+            namespace = "";
             writeStartElement(null, namespace, "sys_id", xmlWriter);
 
             if (localSys_id == null) {
@@ -7123,9 +7757,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -7254,7 +7887,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localCountTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "count", xmlWriter);
 
                 if (localCount == null) {
@@ -7547,9 +8180,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -7674,7 +8306,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localCountTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "count", xmlWriter);
 
                 if (localCount == null) {
@@ -7967,9 +8599,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8114,7 +8745,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 }
             }
 
-            namespace = "http://www.service-now.com/sys_atf_test";
+            namespace = "";
             writeStartElement(null, namespace, "sys_id", xmlWriter);
 
             if (localSys_id == null) {
@@ -8128,7 +8759,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             xmlWriter.writeEndElement();
 
             if (local__use_viewTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__use_view", xmlWriter);
 
                 if (local__use_view == null) {
@@ -8420,9 +9051,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8451,9 +9081,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__use_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__use_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -8609,8 +9238,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                     for (int i = 0; i < localGetRecordsResult.length; i++) {
                         if (localGetRecordsResult[i] != null) {
                             localGetRecordsResult[i].serialize(new javax.xml.namespace.QName(
-                                    "http://www.service-now.com/sys_atf_test",
-                                    "getRecordsResult"), xmlWriter);
+                                    "", "getRecordsResult"), xmlWriter);
                         } else {
                             // we don't have to do any thing since minOccures is zero
                         }
@@ -8902,9 +9530,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "getRecordsResult").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "getRecordsResult").equals(
+                                reader.getName())) {
                         // Process the array and step past its final element's end.
                         list1.add(GetRecordsResult_type0.Factory.parse(reader));
 
@@ -8928,8 +9555,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                                 //two continuous end elements means we are exiting the xml structure
                                 loopDone1 = true;
                             } else {
-                                if (new javax.xml.namespace.QName(
-                                            "http://www.service-now.com/sys_atf_test",
+                                if (new javax.xml.namespace.QName("",
                                             "getRecordsResult").equals(
                                             reader.getName())) {
                                     list1.add(GetRecordsResult_type0.Factory.parse(
@@ -8981,6 +9607,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localActiveTracker = false;
 
         /**
+         * field for Copied_from
+         */
+        protected java.lang.String localCopied_from;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localCopied_fromTracker = false;
+
+        /**
          * field for Description
          */
         protected java.lang.String localDescription;
@@ -8992,6 +9629,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localDescriptionTracker = false;
 
         /**
+         * field for Enable_parameterized_testing
+         */
+        protected boolean localEnable_parameterized_testing;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localEnable_parameterized_testingTracker = false;
+
+        /**
          * field for Name
          */
         protected java.lang.String localName;
@@ -9001,6 +9649,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
          *   in the serialized XML
          */
         protected boolean localNameTracker = false;
+
+        /**
+         * field for Parameters
+         */
+        protected java.lang.String localParameters;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localParametersTracker = false;
 
         /**
          * field for Remember
@@ -9256,6 +9915,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localActive = param;
         }
 
+        public boolean isCopied_fromSpecified() {
+            return localCopied_fromTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getCopied_from() {
+            return localCopied_from;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Copied_from
+         */
+        public void setCopied_from(java.lang.String param) {
+            localCopied_fromTracker = param != null;
+
+            this.localCopied_from = param;
+        }
+
         public boolean isDescriptionSpecified() {
             return localDescriptionTracker;
         }
@@ -9278,6 +9959,29 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localDescription = param;
         }
 
+        public boolean isEnable_parameterized_testingSpecified() {
+            return localEnable_parameterized_testingTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return boolean
+         */
+        public boolean getEnable_parameterized_testing() {
+            return localEnable_parameterized_testing;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Enable_parameterized_testing
+         */
+        public void setEnable_parameterized_testing(boolean param) {
+            // setting primitive attribute tracker to true
+            localEnable_parameterized_testingTracker = true;
+
+            this.localEnable_parameterized_testing = param;
+        }
+
         public boolean isNameSpecified() {
             return localNameTracker;
         }
@@ -9298,6 +10002,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             localNameTracker = param != null;
 
             this.localName = param;
+        }
+
+        public boolean isParametersSpecified() {
+            return localParametersTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getParameters() {
+            return localParameters;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Parameters
+         */
+        public void setParameters(java.lang.String param) {
+            localParametersTracker = param != null;
+
+            this.localParameters = param;
         }
 
         public boolean isRememberSpecified() {
@@ -9812,7 +10538,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -9826,8 +10552,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localCopied_fromTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "copied_from", xmlWriter);
+
+                if (localCopied_from == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "copied_from cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localCopied_from);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localDescriptionTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "description", xmlWriter);
 
                 if (localDescription == null) {
@@ -9841,8 +10582,24 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localEnable_parameterized_testingTracker) {
+                namespace = "";
+                writeStartElement(null, namespace,
+                    "enable_parameterized_testing", xmlWriter);
+
+                if (false) {
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "enable_parameterized_testing cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                            localEnable_parameterized_testing));
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localNameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "name", xmlWriter);
 
                 if (localName == null) {
@@ -9856,8 +10613,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localParametersTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "parameters", xmlWriter);
+
+                if (localParameters == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "parameters cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localParameters);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localRememberTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "remember", xmlWriter);
 
                 if (localRemember == null) {
@@ -9872,7 +10644,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -9887,7 +10659,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -9902,7 +10674,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -9917,7 +10689,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -9932,7 +10704,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -9948,7 +10720,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_name", xmlWriter);
 
                 if (localSys_name == null) {
@@ -9963,7 +10735,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_packageTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_package", xmlWriter);
 
                 if (localSys_package == null) {
@@ -9978,7 +10750,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_policyTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_policy", xmlWriter);
 
                 if (localSys_policy == null) {
@@ -9993,7 +10765,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_scopeTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_scope", xmlWriter);
 
                 if (localSys_scope == null) {
@@ -10008,7 +10780,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_update_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_update_name", xmlWriter);
 
                 if (localSys_update_name == null) {
@@ -10023,7 +10795,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -10038,7 +10810,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -10053,7 +10825,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__use_viewTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__use_view", xmlWriter);
 
                 if (local__use_view == null) {
@@ -10068,7 +10840,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__encoded_queryTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__encoded_query", xmlWriter);
 
                 if (local__encoded_query == null) {
@@ -10083,7 +10855,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__limitTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__limit", xmlWriter);
 
                 if (local__limit == null) {
@@ -10098,7 +10870,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__first_rowTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__first_row", xmlWriter);
 
                 if (local__first_row == null) {
@@ -10113,7 +10885,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__last_rowTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__last_row", xmlWriter);
 
                 if (local__last_row == null) {
@@ -10128,7 +10900,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__order_byTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__order_by", xmlWriter);
 
                 if (local__order_by == null) {
@@ -10143,7 +10915,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__order_by_descTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__order_by_desc", xmlWriter);
 
                 if (local__order_by_desc == null) {
@@ -10158,7 +10930,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (local__exclude_columnsTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "__exclude_columns",
                     xmlWriter);
 
@@ -10452,9 +11224,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10480,9 +11251,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "description").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "copied_from").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "copied_from" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setCopied_from(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "description").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10508,9 +11305,37 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("",
+                                "enable_parameterized_testing").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " +
+                                "enable_parameterized_testing" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setEnable_parameterized_testing(org.apache.axis2.databinding.utils.ConverterUtil.convertToBoolean(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10535,9 +11360,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "remember").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "parameters").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "parameters" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setParameters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "remember").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10563,9 +11414,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10591,9 +11441,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10619,9 +11468,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10647,9 +11495,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10675,9 +11522,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10703,9 +11549,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10731,9 +11576,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_package").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_package").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10759,9 +11603,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_policy").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_policy").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10787,9 +11630,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_scope").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_scope").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10815,9 +11657,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_update_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_update_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10843,9 +11684,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10871,9 +11711,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10899,9 +11738,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__use_view").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__use_view").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10927,9 +11765,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__encoded_query").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__encoded_query").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10955,9 +11792,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__limit").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__limit").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -10983,9 +11819,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__first_row").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__first_row").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11011,9 +11846,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__last_row").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__last_row").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11039,9 +11873,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__order_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__order_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11067,9 +11900,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "__order_by_desc").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "__order_by_desc").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11095,8 +11927,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
+                            new javax.xml.namespace.QName("",
                                 "__exclude_columns").equals(reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
@@ -11152,6 +11983,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localActiveTracker = false;
 
         /**
+         * field for Copied_from
+         */
+        protected java.lang.String localCopied_from;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localCopied_fromTracker = false;
+
+        /**
          * field for Description
          */
         protected java.lang.String localDescription;
@@ -11163,9 +12005,31 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localDescriptionTracker = false;
 
         /**
+         * field for Enable_parameterized_testing
+         */
+        protected boolean localEnable_parameterized_testing;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localEnable_parameterized_testingTracker = false;
+
+        /**
          * field for Name
          */
         protected java.lang.String localName;
+
+        /**
+         * field for Parameters
+         */
+        protected java.lang.String localParameters;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localParametersTracker = false;
 
         /**
          * field for Remember
@@ -11206,6 +12070,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localActive = param;
         }
 
+        public boolean isCopied_fromSpecified() {
+            return localCopied_fromTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getCopied_from() {
+            return localCopied_from;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Copied_from
+         */
+        public void setCopied_from(java.lang.String param) {
+            localCopied_fromTracker = param != null;
+
+            this.localCopied_from = param;
+        }
+
         public boolean isDescriptionSpecified() {
             return localDescriptionTracker;
         }
@@ -11228,6 +12114,29 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localDescription = param;
         }
 
+        public boolean isEnable_parameterized_testingSpecified() {
+            return localEnable_parameterized_testingTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return boolean
+         */
+        public boolean getEnable_parameterized_testing() {
+            return localEnable_parameterized_testing;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Enable_parameterized_testing
+         */
+        public void setEnable_parameterized_testing(boolean param) {
+            // setting primitive attribute tracker to true
+            localEnable_parameterized_testingTracker = true;
+
+            this.localEnable_parameterized_testing = param;
+        }
+
         /**
          * Auto generated getter method
          * @return java.lang.String
@@ -11242,6 +12151,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
          */
         public void setName(java.lang.String param) {
             this.localName = param;
+        }
+
+        public boolean isParametersSpecified() {
+            return localParametersTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getParameters() {
+            return localParameters;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Parameters
+         */
+        public void setParameters(java.lang.String param) {
+            localParametersTracker = param != null;
+
+            this.localParameters = param;
         }
 
         public boolean isRememberSpecified() {
@@ -11332,7 +12263,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -11346,8 +12277,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localCopied_fromTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "copied_from", xmlWriter);
+
+                if (localCopied_from == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "copied_from cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localCopied_from);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localDescriptionTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "description", xmlWriter);
 
                 if (localDescription == null) {
@@ -11361,7 +12307,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
-            namespace = "http://www.service-now.com/sys_atf_test";
+            if (localEnable_parameterized_testingTracker) {
+                namespace = "";
+                writeStartElement(null, namespace,
+                    "enable_parameterized_testing", xmlWriter);
+
+                if (false) {
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "enable_parameterized_testing cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                            localEnable_parameterized_testing));
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
+            namespace = "";
             writeStartElement(null, namespace, "name", xmlWriter);
 
             if (localName == null) {
@@ -11374,8 +12336,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
 
             xmlWriter.writeEndElement();
 
+            if (localParametersTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "parameters", xmlWriter);
+
+                if (localParameters == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "parameters cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localParameters);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localRememberTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "remember", xmlWriter);
 
                 if (localRemember == null) {
@@ -11389,7 +12366,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
-            namespace = "http://www.service-now.com/sys_atf_test";
+            namespace = "";
             writeStartElement(null, namespace, "sys_id", xmlWriter);
 
             if (localSys_id == null) {
@@ -11680,9 +12657,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11708,9 +12684,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "description").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "copied_from").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "copied_from" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setCopied_from(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "description").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11736,9 +12738,37 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("",
+                                "enable_parameterized_testing").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " +
+                                "enable_parameterized_testing" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setEnable_parameterized_testing(org.apache.axis2.databinding.utils.ConverterUtil.convertToBoolean(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11766,9 +12796,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "remember").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "parameters").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "parameters" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setParameters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "remember").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11794,9 +12850,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -11854,6 +12909,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localActiveTracker = false;
 
         /**
+         * field for Copied_from
+         */
+        protected java.lang.String localCopied_from;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localCopied_fromTracker = false;
+
+        /**
          * field for Description
          */
         protected java.lang.String localDescription;
@@ -11865,9 +12931,31 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localDescriptionTracker = false;
 
         /**
+         * field for Enable_parameterized_testing
+         */
+        protected boolean localEnable_parameterized_testing;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localEnable_parameterized_testingTracker = false;
+
+        /**
          * field for Name
          */
         protected java.lang.String localName;
+
+        /**
+         * field for Parameters
+         */
+        protected java.lang.String localParameters;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localParametersTracker = false;
 
         /**
          * field for Remember
@@ -11903,6 +12991,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localActive = param;
         }
 
+        public boolean isCopied_fromSpecified() {
+            return localCopied_fromTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getCopied_from() {
+            return localCopied_from;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Copied_from
+         */
+        public void setCopied_from(java.lang.String param) {
+            localCopied_fromTracker = param != null;
+
+            this.localCopied_from = param;
+        }
+
         public boolean isDescriptionSpecified() {
             return localDescriptionTracker;
         }
@@ -11925,6 +13035,29 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localDescription = param;
         }
 
+        public boolean isEnable_parameterized_testingSpecified() {
+            return localEnable_parameterized_testingTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return boolean
+         */
+        public boolean getEnable_parameterized_testing() {
+            return localEnable_parameterized_testing;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Enable_parameterized_testing
+         */
+        public void setEnable_parameterized_testing(boolean param) {
+            // setting primitive attribute tracker to true
+            localEnable_parameterized_testingTracker = true;
+
+            this.localEnable_parameterized_testing = param;
+        }
+
         /**
          * Auto generated getter method
          * @return java.lang.String
@@ -11939,6 +13072,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
          */
         public void setName(java.lang.String param) {
             this.localName = param;
+        }
+
+        public boolean isParametersSpecified() {
+            return localParametersTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getParameters() {
+            return localParameters;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Parameters
+         */
+        public void setParameters(java.lang.String param) {
+            localParametersTracker = param != null;
+
+            this.localParameters = param;
         }
 
         public boolean isRememberSpecified() {
@@ -12013,7 +13168,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -12027,8 +13182,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localCopied_fromTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "copied_from", xmlWriter);
+
+                if (localCopied_from == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "copied_from cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localCopied_from);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localDescriptionTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "description", xmlWriter);
 
                 if (localDescription == null) {
@@ -12042,7 +13212,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
-            namespace = "http://www.service-now.com/sys_atf_test";
+            if (localEnable_parameterized_testingTracker) {
+                namespace = "";
+                writeStartElement(null, namespace,
+                    "enable_parameterized_testing", xmlWriter);
+
+                if (false) {
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "enable_parameterized_testing cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                            localEnable_parameterized_testing));
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
+            namespace = "";
             writeStartElement(null, namespace, "name", xmlWriter);
 
             if (localName == null) {
@@ -12055,8 +13241,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
 
             xmlWriter.writeEndElement();
 
+            if (localParametersTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "parameters", xmlWriter);
+
+                if (localParameters == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "parameters cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localParameters);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localRememberTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "remember", xmlWriter);
 
                 if (localRemember == null) {
@@ -12348,9 +13549,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12376,9 +13576,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "description").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "copied_from").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "copied_from" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setCopied_from(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "description").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12404,9 +13630,37 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("",
+                                "enable_parameterized_testing").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " +
+                                "enable_parameterized_testing" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setEnable_parameterized_testing(org.apache.axis2.databinding.utils.ConverterUtil.convertToBoolean(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12434,9 +13688,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "remember").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "parameters").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "parameters" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setParameters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "remember").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -12491,6 +13771,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localActiveTracker = false;
 
         /**
+         * field for Copied_from
+         */
+        protected java.lang.String localCopied_from;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localCopied_fromTracker = false;
+
+        /**
          * field for Description
          */
         protected java.lang.String localDescription;
@@ -12502,6 +13793,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
         protected boolean localDescriptionTracker = false;
 
         /**
+         * field for Enable_parameterized_testing
+         */
+        protected boolean localEnable_parameterized_testing;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localEnable_parameterized_testingTracker = false;
+
+        /**
          * field for Name
          */
         protected java.lang.String localName;
@@ -12511,6 +13813,17 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
          *   in the serialized XML
          */
         protected boolean localNameTracker = false;
+
+        /**
+         * field for Parameters
+         */
+        protected java.lang.String localParameters;
+
+        /*  This tracker boolean wil be used to detect whether the user called the set method
+         *   for this attribute. It will be used to determine whether to include this field
+         *   in the serialized XML
+         */
+        protected boolean localParametersTracker = false;
 
         /**
          * field for Remember
@@ -12678,6 +13991,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localActive = param;
         }
 
+        public boolean isCopied_fromSpecified() {
+            return localCopied_fromTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getCopied_from() {
+            return localCopied_from;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Copied_from
+         */
+        public void setCopied_from(java.lang.String param) {
+            localCopied_fromTracker = param != null;
+
+            this.localCopied_from = param;
+        }
+
         public boolean isDescriptionSpecified() {
             return localDescriptionTracker;
         }
@@ -12700,6 +14035,29 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             this.localDescription = param;
         }
 
+        public boolean isEnable_parameterized_testingSpecified() {
+            return localEnable_parameterized_testingTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return boolean
+         */
+        public boolean getEnable_parameterized_testing() {
+            return localEnable_parameterized_testing;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Enable_parameterized_testing
+         */
+        public void setEnable_parameterized_testing(boolean param) {
+            // setting primitive attribute tracker to true
+            localEnable_parameterized_testingTracker = true;
+
+            this.localEnable_parameterized_testing = param;
+        }
+
         public boolean isNameSpecified() {
             return localNameTracker;
         }
@@ -12720,6 +14078,28 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             localNameTracker = param != null;
 
             this.localName = param;
+        }
+
+        public boolean isParametersSpecified() {
+            return localParametersTracker;
+        }
+
+        /**
+         * Auto generated getter method
+         * @return java.lang.String
+         */
+        public java.lang.String getParameters() {
+            return localParameters;
+        }
+
+        /**
+         * Auto generated setter method
+         * @param param Parameters
+         */
+        public void setParameters(java.lang.String param) {
+            localParametersTracker = param != null;
+
+            this.localParameters = param;
         }
 
         public boolean isRememberSpecified() {
@@ -13058,7 +14438,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localActiveTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "active", xmlWriter);
 
                 if (false) {
@@ -13072,8 +14452,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localCopied_fromTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "copied_from", xmlWriter);
+
+                if (localCopied_from == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "copied_from cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localCopied_from);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localDescriptionTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "description", xmlWriter);
 
                 if (localDescription == null) {
@@ -13087,8 +14482,24 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localEnable_parameterized_testingTracker) {
+                namespace = "";
+                writeStartElement(null, namespace,
+                    "enable_parameterized_testing", xmlWriter);
+
+                if (false) {
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "enable_parameterized_testing cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                            localEnable_parameterized_testing));
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localNameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "name", xmlWriter);
 
                 if (localName == null) {
@@ -13102,8 +14513,23 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                 xmlWriter.writeEndElement();
             }
 
+            if (localParametersTracker) {
+                namespace = "";
+                writeStartElement(null, namespace, "parameters", xmlWriter);
+
+                if (localParameters == null) {
+                    // write the nil attribute
+                    throw new org.apache.axis2.databinding.ADBException(
+                        "parameters cannot be null!!");
+                } else {
+                    xmlWriter.writeCharacters(localParameters);
+                }
+
+                xmlWriter.writeEndElement();
+            }
+
             if (localRememberTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "remember", xmlWriter);
 
                 if (localRemember == null) {
@@ -13118,7 +14544,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_class_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_class_name", xmlWriter);
 
                 if (localSys_class_name == null) {
@@ -13133,7 +14559,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_created_byTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_by", xmlWriter);
 
                 if (localSys_created_by == null) {
@@ -13148,7 +14574,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_created_onTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_created_on", xmlWriter);
 
                 if (localSys_created_on == null) {
@@ -13163,7 +14589,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -13178,7 +14604,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_mod_countTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_mod_count", xmlWriter);
 
                 if (localSys_mod_count == null) {
@@ -13194,7 +14620,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_name", xmlWriter);
 
                 if (localSys_name == null) {
@@ -13209,7 +14635,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_packageTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_package", xmlWriter);
 
                 if (localSys_package == null) {
@@ -13224,7 +14650,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_policyTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_policy", xmlWriter);
 
                 if (localSys_policy == null) {
@@ -13239,7 +14665,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_scopeTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_scope", xmlWriter);
 
                 if (localSys_scope == null) {
@@ -13254,7 +14680,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_update_nameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_update_name", xmlWriter);
 
                 if (localSys_update_name == null) {
@@ -13269,7 +14695,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_updated_byTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_by", xmlWriter);
 
                 if (localSys_updated_by == null) {
@@ -13284,7 +14710,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_updated_onTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_updated_on", xmlWriter);
 
                 if (localSys_updated_on == null) {
@@ -13577,9 +15003,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "active").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "active").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13605,9 +15030,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "description").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "copied_from").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "copied_from" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setCopied_from(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "description").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13633,9 +15084,37 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("",
+                                "enable_parameterized_testing").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " +
+                                "enable_parameterized_testing" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setEnable_parameterized_testing(org.apache.axis2.databinding.utils.ConverterUtil.convertToBoolean(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13660,9 +15139,35 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "remember").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "parameters").equals(
+                                reader.getName())) {
+                        nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                                "nil");
+
+                        if ("true".equals(nillableValue) ||
+                                "1".equals(nillableValue)) {
+                            throw new org.apache.axis2.databinding.ADBException(
+                                "The element: " + "parameters" +
+                                "  cannot be null");
+                        }
+
+                        java.lang.String content = reader.getElementText();
+
+                        object.setParameters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(
+                                content));
+
+                        reader.next();
+                    } // End of if for expected property start element
+
+                    else {
+                    }
+
+                    while (!reader.isStartElement() && !reader.isEndElement())
+                        reader.next();
+
+                    if (reader.isStartElement() &&
+                            new javax.xml.namespace.QName("", "remember").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13688,9 +15193,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_class_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_class_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13716,9 +15220,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_created_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13744,9 +15247,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_created_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_created_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13772,9 +15274,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13800,9 +15301,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_mod_count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_mod_count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13828,9 +15328,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13856,9 +15355,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_package").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_package").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13884,9 +15382,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_policy").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_policy").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13912,9 +15409,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_scope").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_scope").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13940,9 +15436,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_update_name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_update_name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13968,9 +15463,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_updated_by").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_by").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -13996,9 +15490,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_updated_on").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_updated_on").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -14184,7 +15677,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
 
             if (localSys_idTracker) {
                 if (localSys_id != null) {
-                    namespace = "http://www.service-now.com/sys_atf_test";
+                    namespace = "";
 
                     for (int i = 0; i < localSys_id.length; i++) {
                         if (localSys_id[i] != null) {
@@ -14206,7 +15699,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localCountTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "count", xmlWriter);
 
                 if (localCount == null) {
@@ -14501,9 +15994,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         // Process the array and step past its final element's end.
                         list1.add(reader.getElementText());
 
@@ -14528,9 +16020,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                                 //two continuous end elements means we are exiting the xml structure
                                 loopDone1 = true;
                             } else {
-                                if (new javax.xml.namespace.QName(
-                                            "http://www.service-now.com/sys_atf_test",
-                                            "sys_id").equals(reader.getName())) {
+                                if (new javax.xml.namespace.QName("", "sys_id").equals(
+                                            reader.getName())) {
                                     list1.add(reader.getElementText());
                                 } else {
                                     loopDone1 = true;
@@ -14550,9 +16041,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "count").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "count").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -14710,7 +16200,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localSys_idTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "sys_id", xmlWriter);
 
                 if (localSys_id == null) {
@@ -14725,7 +16215,7 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
             }
 
             if (localNameTracker) {
-                namespace = "http://www.service-now.com/sys_atf_test";
+                namespace = "";
                 writeStartElement(null, namespace, "name", xmlWriter);
 
                 if (localName == null) {
@@ -15018,9 +16508,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "sys_id").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "sys_id").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
@@ -15046,9 +16535,8 @@ public class ServiceNow_sys_atf_testStub extends org.apache.axis2.client.Stub {
                         reader.next();
 
                     if (reader.isStartElement() &&
-                            new javax.xml.namespace.QName(
-                                "http://www.service-now.com/sys_atf_test",
-                                "name").equals(reader.getName())) {
+                            new javax.xml.namespace.QName("", "name").equals(
+                                reader.getName())) {
                         nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
                                 "nil");
 
