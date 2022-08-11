@@ -21,7 +21,7 @@ public class ServiceNowClient
 	
 	public ServiceNowClient() throws Exception
 	{
-		try (InputStream input = ServiceNowClient.class.getClassLoader().getResourceAsStream("resources/config.properties")) {
+		try (InputStream input = ServiceNowClient.class.getClassLoader().getResourceAsStream("config.properties")) {
 
             Properties prop = new Properties();
 
@@ -96,11 +96,11 @@ public class ServiceNowClient
 	 * @name Click Submit
 	 * @param table Name of service now table
 	 */
-	public void clickSubmit(String table, String actionName) throws Exception {
+	public void clickSubmit(String table) throws Exception {
 		ServiceNow_sys_atf_stepStub.InsertResponse testStepClickSubmit = client.addTestStep(currentTestCaseSysId, "Click a UI Action", table, "Click submit");
 		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "Table", table);
 
-		String sysIdUIAction = client.getUIActionSysId(table, actionName);
+		String sysIdUIAction = client.getUIActionSysId(table, "");
 		client.setTestStepVariable(testStepClickSubmit.getSys_id(), "Click a UI Action", "UI action", sysIdUIAction);
 	}
 
